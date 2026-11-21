@@ -58,7 +58,7 @@ def hours(oh):
 
 def spec_for(r):
     kit = {**GENERIC, **KITS.get(r["kind"], {})}
-    where = r["suburb"] or "Melbourne"
+    where = r["suburb"] or r.get("city") or "Melbourne"
     label = LABEL.get(r["kind"], r["kind"].replace("_", " ").capitalize())
     addr = ", ".join(x for x in (r["street"], r["suburb"]) if x)
     cuisine = f", {r['cuisine'].split(';')[0].replace('_', ' ')} food" if r.get("cuisine") else ""
@@ -106,3 +106,4 @@ def main(csv_path, *only):
 
 if __name__ == "__main__":
     main(*sys.argv[1:])
+    import gallery  # noqa: E402,F401  (rebuilds p/index.html)
