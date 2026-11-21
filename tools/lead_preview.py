@@ -82,7 +82,8 @@ def spec_for(r):
     if photos:
         cred = json.loads((ROOT / "specs/demo" / f"{photos}.json").read_text())
         s["hero"], s["about_img"], s["photo_credits"] = cred.get("hero"), None, cred.get("photo_credits", [])
-        s["photo_credits"] = [c for c in s["photo_credits"]][:1]
+        hid = (s["hero"] or {}).get("id")
+        s["photo_credits"] = [c for c in s["photo_credits"] if c.get("id") == hid][:1] or s["photo_credits"][:1]
         s["_photo_dir"] = photos
     return s
 

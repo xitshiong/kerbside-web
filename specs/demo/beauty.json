@@ -95,7 +95,8 @@
    "by": "Daderot",
    "licence": "CC0",
    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg"
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
   },
   {
    "by": "johnrosman",
@@ -107,19 +108,22 @@
    "by": "Oxfordian Kissuth",
    "licence": "CC BY-SA 3.0",
    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Hairdressing_tools,_various.jpg"
+   "page": "https://commons.wikimedia.org/wiki/File:Hairdressing_tools,_various.jpg",
+   "id": "f31844287"
   },
   {
    "by": "Unknown author",
    "licence": "CC BY-SA 4.0",
    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Ricky_Reyes_salon_interiorB.jpg"
+   "page": "https://commons.wikimedia.org/wiki/File:Ricky_Reyes_salon_interiorB.jpg",
+   "id": "f156348650"
   },
   {
    "by": "Henryk Borawski",
    "licence": "CC BY-SA 4.0",
    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Salon_fryzjerski_w_Bia%C5%82ymstoku_(Dworzec_kolejowy_PKP).jpg"
+   "page": "https://commons.wikimedia.org/wiki/File:Salon_fryzjerski_w_Bia%C5%82ymstoku_(Dworzec_kolejowy_PKP).jpg",
+   "id": "f42004738"
   }
  ],
  "img_radius": "4px",
