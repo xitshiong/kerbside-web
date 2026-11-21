@@ -3,88 +3,95 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kerbside Web — $299 websites for Melbourne small businesses</title>
+<title>Kerbside Web: $299 websites for Melbourne small businesses</title>
 <meta name="description" content="Mobile-first websites for Melbourne tradies, cafés and salons. We build your site first. You only pay $299 if you like it.">
 <meta name="theme-color" content="#14213d">
-<meta property="og:title" content="Kerbside Web — your website, built before you pay">
+<meta property="og:title" content="Kerbside Web: your website, built before you pay">
 <meta property="og:description" content="$299 mobile-first websites for Melbourne small businesses. Free preview first, pay only if you like it.">
 <meta property="og:image" content="assets/plumber.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#14213d;--muted:#4f5a70;--paper:#f6f3ec;--hi:#ff5a1f;--line:rgba(20,33,61,.14);--display:"Bricolage Grotesque",system-ui,sans-serif}
+/* Hallmark · v2.0.0 · redesign: polish · theme: custom (navy ink, kerbside orange, warm paper) · job: get a free preview · hero: headline beside three phone previews · nav: wordmark, links, cta · footer: contact row */
+/* Hallmark · pre-emit critique · weakest: no client work yet, so demos and real previews carry the proof instead of testimonials */
+:root{--ink:#14213d;--muted:#4f5a70;--paper:#f6f3ec;--hi:#c2410c;--hi-bright:#ff6a33;--hi-deep:#9a3412;--on:#fffaf3;--soft:#c7cedd;--tray:#e7e2d7;--night:#0b1222;--shadow:rgba(20,33,61,.45);--line:rgba(20,33,61,.14);--display:"Bricolage Grotesque",system-ui,sans-serif}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font:400 17px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{margin:0;font:400 17px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:clip}
 img{max-width:100%;display:block}a{color:inherit;text-underline-offset:3px}
 :focus-visible{outline:3px solid var(--hi);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
-h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.03em;line-height:1;margin:0}
+h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.03em;line-height:1;margin:0;overflow-wrap:break-word;min-width:0}
 header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
 .logo{font-family:var(--display);font-weight:800;font-size:24px;text-decoration:none;letter-spacing:-.03em}.logo span{color:var(--hi)}
 header nav{display:flex;gap:26px;align-items:center;font-weight:500;font-size:15px}header nav a:not(.btn){text-decoration:none}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 24px;border-radius:999px;background:var(--hi);color:#fff;font-weight:700;text-decoration:none;border:2px solid var(--hi);transition:transform .15s ease,background .15s ease}
-.btn:hover{background:#e04812;border-color:#e04812}.btn:active{transform:scale(.98)}
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.ghost:hover{background:var(--ink);color:#fff}
-.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:clamp(24px,5vw,64px) 0 clamp(48px,7vw,96px)}
-.eyebrow{font-weight:700;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--hi);margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 24px;border-radius:999px;background:var(--hi);color:var(--on);font-weight:700;text-decoration:none;border:2px solid var(--hi);transition:transform .16s cubic-bezier(.2,.7,.2,1),background-color .16s ease,border-color .16s ease,color .16s ease}
+.btn:hover{background:var(--hi-deep);border-color:var(--hi-deep)}.btn:active{transform:scale(.98)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.ghost:hover{background:var(--ink);color:var(--on)}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;align-items:center;padding:clamp(24px,5vw,64px) 0 clamp(48px,7vw,96px)}
 h1{font-size:clamp(46px,7.4vw,96px);margin-bottom:24px;text-wrap:balance}
-h1 em{font-style:normal;color:var(--hi)}
 .lead{font-size:clamp(18px,1.7vw,21px);color:var(--muted);max-width:36ch;margin:0 0 30px}
 .ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
 .note{font-size:15px;color:var(--muted);margin:16px 0 0}
 .phones{position:relative;height:clamp(460px,46vw,600px)}
-.phones a{position:absolute;width:44%;border-radius:26px;overflow:hidden;border:8px solid var(--ink);background:var(--ink);box-shadow:0 30px 60px -20px rgba(20,33,61,.45);transition:transform .25s ease}
+.phones a{position:absolute;width:44%;border-radius:26px;overflow:hidden;border:8px solid var(--ink);background:var(--ink);box-shadow:0 30px 60px -20px var(--shadow);transition:transform .25s ease}
 .phones a:hover{transform:translateY(-6px)}
 .phones img{height:auto;aspect-ratio:390/844;object-fit:cover;object-position:top;width:100%}
 .phones a:nth-child(1){left:0;top:12%;transform:rotate(-5deg)}.phones a:nth-child(1):hover{transform:rotate(-5deg) translateY(-6px)}
 .phones a:nth-child(2){left:28%;top:0;z-index:2}
 .phones a:nth-child(3){right:0;top:14%;transform:rotate(5deg)}.phones a:nth-child(3):hover{transform:rotate(5deg) translateY(-6px)}
-.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:26px 0;margin:0;list-style:none}
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding:24px 0;margin:0;list-style:none}
 .strip b{display:block;font-family:var(--display);font-size:clamp(26px,3vw,36px);letter-spacing:-.03em;line-height:1.1}
 .strip span{color:var(--muted);font-size:15px}
 section{padding:clamp(56px,8vw,112px) 0}
 h2{font-size:clamp(36px,5vw,64px);margin-bottom:20px;text-wrap:balance}
 .sub{color:var(--muted);font-size:19px;max-width:48ch;margin:0 0 40px}
-.demos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.demos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .demos a{text-decoration:none;display:block}
-.demos figure{margin:0 0 14px;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:#e7e2d7}
-.demos img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .4s ease}
-.demos a:hover img{transform:scale(1.03)}
+.demos figure{margin:0 0 14px;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:var(--tray);transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s ease}
+.demos img{width:100%;height:100%;object-fit:cover;object-position:top}
+@media(hover:hover){.demos a:hover figure{transform:translateY(-4px);box-shadow:0 24px 48px -24px var(--shadow)}}
 .demos h3{font-size:24px}.demos p{margin:4px 0 0;color:var(--muted)}
-.price{background:var(--ink);color:#fff;border-radius:28px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.price .big{font-family:var(--display);font-weight:800;font-size:clamp(88px,13vw,168px);line-height:.9;letter-spacing:-.05em;color:var(--hi)}
-.price .big small{font-size:22px;color:#c7cedd;letter-spacing:0;font-weight:600}
-.price h2{color:#fff}
+.price{background:var(--ink);color:var(--on);border-radius:28px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+.price .big{font-family:var(--display);font-weight:800;font-size:clamp(88px,13vw,168px);line-height:.9;letter-spacing:-.05em;color:var(--hi-bright);font-variant-numeric:tabular-nums}
+.price .big small{font-size:22px;color:var(--soft);letter-spacing:0;font-weight:600}
+.price h2{color:var(--on)}
 .price ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.price li{padding-left:30px;position:relative}.price li:before{content:"";position:absolute;left:0;top:.5em;width:14px;height:8px;border-left:3px solid var(--hi);border-bottom:3px solid var(--hi);transform:rotate(-45deg)}
-.extras{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:28px;border-top:2px solid var(--ink)}
+.price li{padding-left:30px;position:relative}.price li:before{content:"";position:absolute;left:0;top:.5em;width:14px;height:8px;border-left:3px solid var(--hi-bright);border-bottom:3px solid var(--hi-bright);transform:rotate(-45deg)}
+.extras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:28px;border-top:2px solid var(--ink)}
 .extras div{padding:22px 22px 22px 0;border-bottom:1px solid var(--line)}
 .extras b{font-family:var(--display);font-size:28px;letter-spacing:-.03em;display:block}
 .extras span{color:var(--muted)}
-.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;counter-reset:s}
 .steps li{border-top:2px solid var(--ink);padding-top:18px}
 .steps li:before{counter-increment:s;content:"0" counter(s);font-family:var(--display);font-weight:800;font-size:44px;color:var(--hi);display:block;line-height:1;margin-bottom:14px}
 .steps b{display:block;font-size:19px;margin-bottom:6px}.steps span{color:var(--muted)}
-.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
+.faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px}
 details{border-bottom:1px solid var(--line);padding:18px 0}
 summary{font-weight:700;font-size:19px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
 summary::-webkit-details-marker{display:none}summary:after{content:"+";font-size:26px;line-height:1;color:var(--hi)}
-details[open] summary:after{content:"–"}
+details[open] summary:after{content:"\2212"}
 details p{color:var(--muted);margin:10px 0 0;max-width:60ch}
-.cta{background:var(--hi);color:#fff;border-radius:28px;padding:clamp(32px,6vw,80px);text-align:center}
-.cta h2{color:#fff}.cta p{font-size:19px;margin:0 auto 30px;max-width:44ch}
-.cta .btn{background:var(--ink);border-color:var(--ink);font-size:18px}.cta .btn:hover{background:#000}
+.cta{background:var(--hi);color:var(--on);border-radius:28px;padding:clamp(32px,6vw,80px);text-align:center}
+.cta h2{color:var(--on)}.cta p{font-size:19px;margin:0 auto 30px;max-width:44ch}
+.cta .btn{background:var(--ink);border-color:var(--ink);color:var(--on);font-size:18px}.cta .btn:hover{background:var(--night);border-color:var(--night)}
 footer{padding:32px 0 48px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 @media(max-width:900px){
- .hero,.price,.faq{grid-template-columns:1fr}
- .phones{height:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+ .hero,.price,.faq{grid-template-columns:minmax(0,1fr)}
+ .phones{height:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
  .phones a{position:static;width:auto;border-width:5px;border-radius:18px;transform:none!important}
- .strip,.steps{grid-template-columns:1fr 1fr}
- .demos,.extras{grid-template-columns:1fr}
+ .strip,.steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .demos,.extras{grid-template-columns:minmax(0,1fr)}
  header nav a:not(.btn){display:none}
 }
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:no-preference){
+ .hero h1,.hero .lead,.hero .ctas,.hero .note{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+ .hero .lead{animation-delay:.08s}.hero .ctas{animation-delay:.16s}.hero .note{animation-delay:.24s}
+ .phones{animation:rise .9s .12s cubic-bezier(.2,.7,.2,1) both}
+ @supports(animation-timeline:view()){.demos a,.steps li,.extras div,details{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 </style>
 </head>
 <body>
@@ -95,11 +102,10 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:14px;display:flex;flex-w
 <main>
 <div class="hero">
  <div>
-  <p class="eyebrow">Websites for Melbourne small businesses</p>
-  <h1>See your new website <em>before</em> you pay a cent.</h1>
-  <p class="lead">I design fast, mobile-first sites for tradies, cafés, salons and local services. I build yours first, for free. If you love it, it's $299. If not, you walk away.</p>
+  <h1>See your website before you pay.</h1>
+  <p class="lead">I design fast, mobile-first sites for Melbourne tradies, cafés, salons and local services. I build yours first, for free. If you love it, it’s $299. If not, you walk away.</p>
   <div class="ctas"><a class="btn" href="#contact">Get my free preview</a><a class="btn ghost" href="#work">See examples</a></div>
-  <p class="note">No deposit · No lock-in contract · You own the site</p>
+  <p class="note">No deposit, no lock-in contract, and you own the site.</p>
  </div>
  <div class="phones" aria-label="Example websites">
   <a href="demo/cafe/"><img src="assets/cafe.jpg" width="600" height="1299" alt="Café example website on a phone"></a>
@@ -169,6 +175,6 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:14px;display:flex;flex-w
  <a class="btn" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Email for a free preview</a></div>
 </section>
 </main>
-<footer><span>Kerbside Web · Melbourne, VIC · Prices in AUD, invoiced by an Australian sole trader</span><a href="mailto:kerbsideweb@gmail.com">kerbsideweb@gmail.com</a></footer>
+<footer><span>Kerbside Web, Melbourne VIC</span><span>Prices in AUD, invoiced by an Australian sole trader</span><a href="mailto:kerbsideweb@gmail.com">kerbsideweb@gmail.com</a></footer>
 </div>
 </body></html>
