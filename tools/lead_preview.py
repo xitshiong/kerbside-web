@@ -71,7 +71,7 @@ def spec_for(r):
              map_query=f"{r['name']} {addr or where} VIC", hours=hrs,
              area_title="Visit us" if addr else "Find us", contact_title="Get in touch",
              links=[[n, u] for n, u in (("Facebook", r["facebook"]), ("Instagram", r["instagram"])) if u and u.startswith("http")],
-             credit="https://xitshiong.github.io/kerbside-web/")
+             credit="https://kerbsidedesign.com/")
     if not s["phone"]: s["cta_secondary"] = kit.get("cta_secondary", "Send an enquiry")
     svc = kit.pop("services")
     s["services"] = [{"name": x} for x in svc]
