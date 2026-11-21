@@ -13,16 +13,16 @@ LABEL = {"cafe": "Café", "restaurant": "Restaurant", "hairdresser": "Hair salon
          "stonemason": "Concreting", "gift": "Homewares & gifts", "candles": "Candles & gifts", "newsagent": "Newsagency",
          "convenience": "Grocery", "computer": "Audio visual & computers", "homeopathy": "Natural health supplies"}
 KITS = {
-    "cafe": dict(font="Fraunces", color="#9a4a1f", accent="#2d1d14", paper="#f6efe6", photos="cafe", services_title="What we serve",
+    "cafe": dict(layout="venue", font="Fraunces", color="#9a4a1f", accent="#2d1d14", paper="#f6efe6", photos="cafe", services_title="What we serve",
                  headline="Good coffee and good food in {where}.", services=["Coffee", "Breakfast", "Lunch", "Takeaway"],
                  cta_secondary="Send an enquiry"),
-    "restaurant": dict(font="Fraunces", color="#8c2f1b", accent="#24140f", paper="#f7f1ea", services_title="Eat with us",
+    "restaurant": dict(layout="venue", font="Fraunces", color="#8c2f1b", accent="#24140f", paper="#f7f1ea", services_title="Eat with us",
                  headline="{name}{cuisine} in {where}.", services=["Dine in", "Takeaway", "Bookings", "Groups & functions"],
                  cta_primary="Call to book", cta_secondary="Request a booking"),
     "hairdresser": dict(font="Cormorant Garamond", font_weights="500;600;700", color="#9b4d5b", accent="#3b2230", paper="#f8f1ee",
                  photos="beauty", radius="4px", services_title="Services", headline="Great hair, close to home in {where}.",
                  services=["Cuts", "Colour", "Blow-dry & styling", "Treatments"], cta_primary="Call to book", cta_secondary="Request a booking", bar_cta="Book"),
-    "bakery": dict(font="Fraunces", color="#a0522d", accent="#3a2416", paper="#f8f0e3", services_title="From our oven",
+    "bakery": dict(layout="venue", font="Fraunces", color="#a0522d", accent="#3a2416", paper="#f8f0e3", services_title="From our oven",
                  headline="Fresh from the oven in {where}.", services=["Bread", "Pastries", "Cakes to order", "Coffee"]),
 }
 KITS["pastry"] = {**KITS["bakery"], "services": ["Cookies", "Boxes & gifts", "Orders for events"]}

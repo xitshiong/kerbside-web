@@ -46,6 +46,7 @@
  "accent": "#2d1d14",
  "paper": "#f6efe6",
  "radius": "6px",
+ "layout": "venue",
  "services_title": "What we serve",
  "hero": {
   "id": "f187311853",
