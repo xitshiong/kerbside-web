@@ -9,6 +9,9 @@ DEFAULTS = {
     "cta_primary": "Call now", "cta_secondary": "Get a quote", "form_placeholder": "How can we help?",
     "hours": [], "links": [], "services": [], "banner": "", "noindex": False,
     "bar_cta": "", "credit": "https://xitshiong.github.io/kerbside-web/",
+    "font": "Fraunces", "font_weights": "600;700", "heading_weight": 600, "paper": "#f7f4ee",
+    "radius": "10px", "img_radius": "18px", "about_title": "About us", "form_label": "Message", "services_note": "",
+    "hero": None, "about_img": None, "photo_credits": [],
 }
 
 def main(spec_path, out_dir):
