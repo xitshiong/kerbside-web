@@ -1,0 +1,65 @@
+{
+ "name": "Plat Coffee",
+ "name_html": "Plat Coffee",
+ "tagline": "Café in Heidelberg",
+ "noindex": true,
+ "headline": "Good coffee and good food in Heidelberg.",
+ "intro": "Find Plat Coffee in Heidelberg: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Plat Coffee</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "platcoffee@gmail.com",
+ "phone": "",
+ "address": "60 Mount Street, Heidelberg",
+ "map_query": "Plat Coffee 60 Mount Street, Heidelberg VIC",
+ "hours": [
+  [
+   "Mon–Fri",
+   "7am – 3pm"
+  ],
+  [
+   "Sat",
+   "8am – 3pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "cta_secondary": "Send an enquiry",
+ "services": [
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Breakfast"
+  },
+  {
+   "name": "Lunch"
+  },
+  {
+   "name": "Takeaway"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#9a4a1f",
+ "accent": "#2d1d14",
+ "paper": "#f6efe6",
+ "radius": "6px",
+ "services_title": "What we serve",
+ "hero": {
+  "id": "f187311853",
+  "w": 1920,
+  "h": 1280,
+  "alt": "Barista tamping espresso at the machine"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Shixart1985",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Barista_prepares_espresso_at_coffee_shop.jpg"
+  }
+ ]
+}

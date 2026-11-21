@@ -1,0 +1,32 @@
+{
+ "name": "Lalor Daily Market",
+ "name_html": "Lalor Daily Market",
+ "tagline": "Grocery in Lalor",
+ "noindex": true,
+ "headline": "Lalor Daily Market, Lalor.",
+ "intro": "Find Lalor Daily Market in Lalor: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lalor Daily Market</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "Lalordailymarket@gmail.com",
+ "phone": "0432 778 666",
+ "address": "Lalor",
+ "map_query": "Lalor Daily Market Lalor VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/p/Lalor-Daily-Market-100063467441906/"
+  ]
+ ],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

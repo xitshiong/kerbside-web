@@ -1,0 +1,44 @@
+{
+ "name": "Fly Lie",
+ "name_html": "Fly Lie",
+ "tagline": "Bar in Kew",
+ "noindex": true,
+ "headline": "Fly Lie, Kew.",
+ "intro": "Find Fly Lie in Kew: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Fly Lie</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "blair@cheiwen.com.au",
+ "phone": "0422 283 384",
+ "address": "309 High Street, Kew",
+ "map_query": "Fly Lie 309 High Street, Kew VIC",
+ "hours": [
+  [
+   "Tue–Thu",
+   "4pm – 1am"
+  ],
+  [
+   "Fri",
+   "3pm – 1am"
+  ],
+  [
+   "Sat",
+   "2pm – 1am"
+  ],
+  [
+   "Sun",
+   "2pm – 10pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

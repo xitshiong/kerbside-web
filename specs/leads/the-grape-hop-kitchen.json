@@ -1,0 +1,51 @@
+{
+ "name": "the grape & HOP kitchen",
+ "name_html": "the grape & HOP kitchen",
+ "tagline": "Restaurant in Montmorency",
+ "noindex": true,
+ "headline": "the grape & HOP kitchen in Montmorency.",
+ "intro": "Find the grape & HOP kitchen in Montmorency: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>the grape & HOP kitchen</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "lincoln@grapehop.com",
+ "phone": "(03) 8406 7979",
+ "address": "12 Were Street, Montmorency",
+ "map_query": "the grape & HOP kitchen 12 Were Street, Montmorency VIC",
+ "hours": [
+  [
+   "Tue,Wed",
+   "5pm – 10pm"
+  ],
+  [
+   "Thu–Sun",
+   "12pm – 10pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

@@ -1,0 +1,63 @@
+{
+ "name": "christina Hair & Beauty",
+ "name_html": "christina Hair & Beauty",
+ "tagline": "Hair salon in Springvale",
+ "noindex": true,
+ "headline": "Great hair, close to home in Springvale.",
+ "intro": "Find christina Hair & Beauty in Springvale: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>christina Hair & Beauty</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "christinahoang47@gmail.com",
+ "phone": "0432 777 699",
+ "address": "47 Royal Avenue, Springvale",
+ "map_query": "christina Hair & Beauty 47 Royal Avenue, Springvale VIC",
+ "hours": [
+  [
+   "Mon–Sun",
+   "10am – 8pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Services",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg"
+  }
+ ]
+}

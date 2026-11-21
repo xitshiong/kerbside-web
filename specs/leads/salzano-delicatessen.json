@@ -1,0 +1,36 @@
+{
+ "name": "Salzano Delicatessen",
+ "name_html": "Salzano Delicatessen",
+ "tagline": "Delicatessen in Balwyn North",
+ "noindex": true,
+ "headline": "Salzano Delicatessen, Balwyn North.",
+ "intro": "Find Salzano Delicatessen in Balwyn North: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Salzano Delicatessen</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "anasalzano@bigpond.com",
+ "phone": "(03) 9859 0588",
+ "address": "73 Doncaster Road, Balwyn North",
+ "map_query": "Salzano Delicatessen 73 Doncaster Road, Balwyn North VIC",
+ "hours": [
+  [
+   "Mon–Fri",
+   "8am – 5:30pm"
+  ],
+  [
+   "Sat",
+   "8am – 2pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}
