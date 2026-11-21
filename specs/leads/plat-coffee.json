@@ -3,7 +3,7 @@
  "name_html": "Plat Coffee",
  "tagline": "Café in Heidelberg",
  "noindex": true,
- "headline": "Good coffee and good food in Heidelberg.",
+ "headline": "Café in Heidelberg",
  "intro": "Find Plat Coffee in Heidelberg: opening hours, directions and a quick way to get in touch.",
  "banner": "Free website preview made for <b>Plat Coffee</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "platcoffee@gmail.com",
@@ -49,10 +49,11 @@
  "layout": "venue",
  "services_title": "What we serve",
  "hero": {
-  "id": "f187311853",
-  "w": 1920,
-  "h": 1280,
-  "alt": "Barista tamping espresso at the machine"
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
  },
  "about_img": null,
  "photo_credits": [

@@ -1,21 +1,17 @@
 {
  "name": "Studio Ember Hair & Beauty",
- "name_html": "Studio <span>Ember</span>",
+ "name_html": "Studio Ember",
  "tagline": "Hair, brows & lashes in Box Hill",
  "color": "#9b4d5b",
  "accent": "#3b2230",
  "noindex": true,
  "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a>. <a href=\"../../#contact\">Get a free preview of your own</a>",
- "headline": "Look good, feel great, book in minutes.",
- "intro": "Cuts, colour, brows and lashes by a friendly team in the heart of Box Hill. Walk-ins welcome, appointments preferred.",
+ "headline": "Hair, brows and lashes in Box Hill",
+ "intro": "Cuts, colour, brows and lashes in the middle of Box Hill. Walk in when a chair is free, or book ahead and skip the wait.",
  "cta_primary": "Call to book",
  "cta_secondary": "Request a booking",
  "bar_cta": "Book",
- "pills": [
-  "Walk-ins welcome",
-  "Afterpay",
-  "Late nights Thu"
- ],
+ "pills": [],
  "services_title": "Services & prices",
  "services": [
   {
@@ -106,6 +102,45 @@
    "licence": "CC BY 2.0",
    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
    "page": "https://commons.wikimedia.org/wiki/File:Inside_the_Hair_Salon_(5577833869).jpg"
+  },
+  {
+   "by": "Oxfordian Kissuth",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hairdressing_tools,_various.jpg"
+  },
+  {
+   "by": "Unknown author",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ricky_Reyes_salon_interiorB.jpg"
+  },
+  {
+   "by": "Henryk Borawski",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Salon_fryzjerski_w_Bia%C5%82ymstoku_(Dworzec_kolejowy_PKP).jpg"
+  }
+ ],
+ "img_radius": "4px",
+ "gallery": [
+  {
+   "id": "f31844287",
+   "w": 960,
+   "h": 1413,
+   "alt": "A stylist’s tool belt with scissors, combs and clips"
+  },
+  {
+   "id": "f156348650",
+   "w": 1280,
+   "h": 1017,
+   "alt": "Stylists at work in a salon with striped walls"
+  },
+  {
+   "id": "f42004738",
+   "w": 1280,
+   "h": 960,
+   "alt": "A long salon floor with styling chairs and mirrors"
   }
  ]
 }

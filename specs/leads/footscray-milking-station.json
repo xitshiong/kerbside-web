@@ -3,7 +3,7 @@
  "name_html": "Footscray Milking Station",
  "tagline": "Café in Footscray",
  "noindex": true,
- "headline": "Good coffee and good food in Footscray.",
+ "headline": "Café in Footscray",
  "intro": "Find Footscray Milking Station in Footscray: opening hours, directions and a quick way to get in touch.",
  "banner": "Free website preview made for <b>Footscray Milking Station</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "footscraymilkingstation@gmail.com",
@@ -54,10 +54,11 @@
  "services_title": "What we serve",
  "cta_secondary": "Send an enquiry",
  "hero": {
-  "id": "f187311853",
-  "w": 1920,
-  "h": 1280,
-  "alt": "Barista tamping espresso at the machine"
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
  },
  "about_img": null,
  "photo_credits": [

@@ -1,22 +1,17 @@
 {
  "name": "Bayside Flow Plumbing",
- "name_html": "Bayside <span>Flow</span>",
- "tagline": "Plumber in Melbourne's south-east",
+ "name_html": "Bayside Flow Plumbing",
+ "tagline": "Plumber, Mordialloc to Frankston",
  "color": "#0d5bd7",
  "accent": "#0b2545",
  "noindex": true,
  "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a>. <a href=\"../../#contact\">Get a free preview of your own</a>",
- "headline": "Blocked drain? Burst pipe? We're there today.",
- "intro": "Licensed, local plumbing for homes and small businesses from Mordialloc to Frankston. Upfront pricing, no call-out surprises.",
+ "headline": "Plumber for Mordialloc to Frankston",
+ "intro": "Blocked drains, hot water and leaking taps for homes and shops in Melbourne's south-east. A fixed price before we start, and same-day visits most weekdays.",
  "cta_primary": "Call for same-day service",
  "cta_secondary": "Get a free quote",
  "bar_cta": "Free quote",
- "pills": [
-  "Licensed & insured",
-  "Same-day service",
-  "7 days",
-  "Upfront pricing"
- ],
+ "pills": [],
  "services_title": "Services",
  "services": [
   {
@@ -77,7 +72,7 @@
  "font_weights": "700;800",
  "heading_weight": 800,
  "paper": "#f4f6f8",
- "radius": "6px",
+ "radius": "4px",
  "hero": {
   "id": "f194319949",
   "w": 1920,
@@ -93,6 +88,45 @@
    "licence": "CC BY 2.0",
    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
    "page": "https://commons.wikimedia.org/wiki/File:Water_at_the_kitchen_tap_closeup.jpg"
+  },
+  {
+   "by": "Tomwsulcer",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Kitchen_renovation_new_plumbing_valve_beneath_kitchen_sink_with_teflon_tape.JPG"
+  },
+  {
+   "by": "Tony Webster",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Under_Sink_-_PVC_Piping.jpg"
+  },
+  {
+   "by": "Achim Hering",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2_inch_copper_pipe_firestops.jpg"
+  }
+ ],
+ "img_radius": "6px",
+ "gallery": [
+  {
+   "id": "f31908153",
+   "w": 1280,
+   "h": 1001,
+   "alt": "A new shut-off valve being fitted under a kitchen sink"
+  },
+  {
+   "id": "f160020488",
+   "w": 1280,
+   "h": 861,
+   "alt": "PVC waste pipes under a bathroom sink"
+  },
+  {
+   "id": "f3423882",
+   "w": 1280,
+   "h": 855,
+   "alt": "Two copper pipes coming through a concrete floor"
   }
  ]
 }

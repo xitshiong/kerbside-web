@@ -1,22 +1,17 @@
 {
  "name": "Laneway Grind",
- "name_html": "Laneway <span>Grind</span>",
- "tagline": "Specialty coffee & all-day brunch in Brunswick",
+ "name_html": "Laneway Grind",
+ "tagline": "Café on Sydney Road, Brunswick",
  "color": "#9a4a1f",
  "accent": "#2d1d14",
  "noindex": true,
  "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a>. <a href=\"../../#contact\">Get a free preview of your own</a>",
- "headline": "Good coffee. Better brunch. Right on Sydney Rd.",
- "intro": "Locally roasted coffee, house-made pastries and an all-day brunch menu. Dog-friendly courtyard out back.",
+ "headline": "Café and brunch on Sydney Road, Brunswick",
+ "intro": "Coffee roasted in Melbourne, pastries baked here before 7am, and brunch until 3pm. Courtyard out back, dogs welcome.",
  "cta_primary": "Call to book",
  "cta_secondary": "Book a table",
- "pills": [
-  "Open 7 days",
-  "Dog friendly",
-  "Vegan options",
-  "Takeaway"
- ],
- "services_title": "Menu favourites",
+ "pills": [],
+ "services_title": "Menu",
  "services": [
   {
    "name": "Flat white",
@@ -49,7 +44,7 @@
    "price": "From $90"
   }
  ],
- "about": "Laneway Grind started as a hole-in-the-wall espresso bar and grew into Brunswick's favourite weekend brunch spot. We roast small batches with local roasters and bake everything on site.",
+ "about": "Laneway Grind opened as a two-metre espresso window and now seats 40 inside and in the courtyard. The pastries are baked on site each morning.",
  "area_title": "Visit us",
  "address": "Sydney Rd, Brunswick VIC 3056",
  "map_query": "Sydney Rd Brunswick VIC",
@@ -81,12 +76,13 @@
  "font_weights": "600;700",
  "heading_weight": 600,
  "paper": "#f6efe6",
- "radius": "999px",
+ "radius": "4px",
  "hero": {
-  "id": "f187311853",
-  "w": 1920,
-  "h": 1280,
-  "alt": "Barista tamping espresso at the machine"
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
  },
  "about_img": {
   "id": "f129916075",
@@ -94,7 +90,7 @@
   "h": 1440,
   "alt": "Espresso pouring into a glass"
  },
- "about_title": "Our story",
+ "about_title": "The café",
  "form_label": "Booking details",
  "photo_credits": [
   {
@@ -108,7 +104,59 @@
    "licence": "CC BY-SA 4.0",
    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Barista_preparando_un_caf%C3%A9.jpg"
+  },
+  {
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg"
+  },
+  {
+   "by": "Shixart1985",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Serving_coffee_in_a_cafe_during_the_morning_hours_with_a_waiter_carrying_a_tray_of_drinks_for_customers.jpg"
+  },
+  {
+   "by": "Thomas Martinsen",
+   "licence": "CC0",
+   "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Drip_brewing_(Unsplash).jpg"
+  },
+  {
+   "by": "Jameswasswa",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Final_part_of_the_roasted_beans_out_for_cooling.jpg"
   }
  ],
- "layout": "venue"
+ "services_note": "Breakfast until 11:30am, lunch until 3pm.",
+ "img_radius": "6px",
+ "layout": "venue",
+ "gallery": [
+  {
+   "id": "f187311853",
+   "w": 1600,
+   "h": 1067,
+   "alt": "A barista tamping ground coffee into the portafilter"
+  },
+  {
+   "id": "m189498721",
+   "w": 1280,
+   "h": 853,
+   "alt": "A tray of four coffees carried along the bar"
+  },
+  {
+   "id": "m61713103",
+   "w": 1280,
+   "h": 853,
+   "alt": "Filter coffee dripping into a glass server"
+  },
+  {
+   "id": "m147143943",
+   "w": 1280,
+   "h": 853,
+   "alt": "Freshly roasted beans turning in the cooling tray"
+  }
+ ]
 }
