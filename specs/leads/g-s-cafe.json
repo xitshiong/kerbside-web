@@ -5,18 +5,18 @@
  "noindex": true,
  "headline": "Good coffee and good food in Port Melbourne.",
  "intro": "Find G&S Cafe in Port Melbourne: opening hours, directions and a quick way to get in touch.",
- "banner": "Free website preview made for <b>G&S Cafe</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "banner": "Free website preview made for <b>G&S Cafe</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "gscafe2@gmail.com",
  "phone": "(03) 9645 1611",
  "address": "391 Plummer Street, Port Melbourne",
  "map_query": "G&S Cafe 391 Plummer Street, Port Melbourne VIC",
  "hours": [
   [
-   "Mon–Fri",
-   "4:30am – 2pm"
+   "Mon to Fri",
+   "4:30am to 2pm"
   ],
   [
-   "Sat–Sun",
+   "Sat to Sun",
    "Closed"
   ]
  ],

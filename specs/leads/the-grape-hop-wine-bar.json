@@ -5,14 +5,14 @@
  "noindex": true,
  "headline": "the grape & HOP wine bar, Montmorency.",
  "intro": "Find the grape & HOP wine bar in Montmorency: opening hours, directions and a quick way to get in touch.",
- "banner": "Free website preview made for <b>the grape & HOP wine bar</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "banner": "Free website preview made for <b>the grape & HOP wine bar</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "lincoln@grapehop.com",
  "phone": "(03) 8406 7979",
  "address": "10 Were Street, Montmorency",
  "map_query": "the grape & HOP wine bar 10 Were Street, Montmorency VIC",
  "hours": [
   [
-   "Tue–Fri",
+   "Tue to Fri",
    "3pm till late"
   ],
   [
@@ -21,7 +21,7 @@
   ],
   [
    "Sun",
-   "2pm – 9:30pm"
+   "2pm to 9:30pm"
   ]
  ],
  "area_title": "Visit us",
