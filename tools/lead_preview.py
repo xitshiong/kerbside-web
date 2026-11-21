@@ -14,21 +14,21 @@ LABEL = {"cafe": "Café", "restaurant": "Restaurant", "hairdresser": "Hair salon
          "convenience": "Grocery", "computer": "Audio visual & computers", "homeopathy": "Natural health supplies"}
 KITS = {
     "cafe": dict(layout="venue", font="Fraunces", color="#9a4a1f", accent="#2d1d14", paper="#f6efe6", photos="cafe", services_title="What we serve",
-                 headline="Good coffee and good food in {where}.", services=["Coffee", "Breakfast", "Lunch", "Takeaway"],
+                 headline="Café in {where}", services=["Coffee", "Breakfast", "Lunch", "Takeaway"],
                  cta_secondary="Send an enquiry"),
     "restaurant": dict(layout="venue", font="Fraunces", color="#8c2f1b", accent="#24140f", paper="#f7f1ea", services_title="Eat with us",
-                 headline="{name}{cuisine} in {where}.", services=["Dine in", "Takeaway", "Bookings", "Groups & functions"],
+                 headline="{cuisine_label} in {where}", services=["Dine in", "Takeaway", "Bookings", "Groups & functions"],
                  cta_primary="Call to book", cta_secondary="Request a booking"),
     "hairdresser": dict(font="Cormorant Garamond", font_weights="500;600;700", color="#9b4d5b", accent="#3b2230", paper="#f8f1ee",
-                 photos="beauty", radius="4px", services_title="Services", headline="Great hair, close to home in {where}.",
+                 photos="beauty", radius="4px", services_title="Cuts, colour and styling", headline="Hair salon in {where}",
                  services=["Cuts", "Colour", "Blow-dry & styling", "Treatments"], cta_primary="Call to book", cta_secondary="Request a booking", bar_cta="Book"),
     "bakery": dict(layout="venue", font="Fraunces", color="#a0522d", accent="#3a2416", paper="#f8f0e3", services_title="From our oven",
-                 headline="Fresh from the oven in {where}.", services=["Bread", "Pastries", "Cakes to order", "Coffee"]),
+                 headline="Bakery in {where}", services=["Bread", "Pastries", "Cakes to order", "Coffee"]),
 }
 KITS["pastry"] = {**KITS["bakery"], "services": ["Cookies", "Boxes & gifts", "Orders for events"]}
 KITS["beauty"] = KITS["hairdresser"]
 GENERIC = dict(font="Archivo", font_weights="700;800", heading_weight=800, color="#1f4fd1", accent="#0f1f3d", paper="#f4f5f7", radius="6px",
-               headline="{name}, {where}.", services=[])
+               headline="{label} in {where}", services=[])
 PHOTOS = {"cafe": "cafe", "beauty": "beauty"}
 
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:40]
@@ -62,9 +62,10 @@ def spec_for(r):
     label = LABEL.get(r["kind"], r["kind"].replace("_", " ").capitalize())
     addr = ", ".join(x for x in (r["street"], r["suburb"]) if x)
     cuisine = f", {r['cuisine'].split(';')[0].replace('_', ' ')} food" if r.get("cuisine") else ""
+    cuisine_label = f"{r['cuisine'].split(';')[0].replace('_', ' ').capitalize()} restaurant" if r.get("cuisine") else label
     hrs = hours(r["hours"]) if r["hours"] else []
     s = dict(name=r["name"], name_html=r["name"], tagline=f"{label} in {where}", noindex=True,
-             headline=kit.pop("headline").format(name=r["name"], where=where, cuisine=cuisine),
+             headline=kit.pop("headline").format(name=r["name"], where=where, cuisine=cuisine, cuisine_label=cuisine_label, label=label),
              intro=f"Find {r['name']} in {where}" + (": opening hours, directions and a quick way to get in touch." if hrs else ": directions and a quick way to get in touch."),
              banner=f"Free website preview made for <b>{r['name']}</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
              email=r["email"], phone=phone_fmt(r["phone"]) if r["phone"] else "", address=addr,
@@ -81,7 +82,8 @@ def spec_for(r):
     if photos:
         cred = json.loads((ROOT / "specs/demo" / f"{photos}.json").read_text())
         s["hero"], s["about_img"], s["photo_credits"] = cred.get("hero"), None, cred.get("photo_credits", [])
-        s["photo_credits"] = [c for c in s["photo_credits"]][:1]
+        hid = (s["hero"] or {}).get("id")
+        s["photo_credits"] = [c for c in s["photo_credits"] if c.get("id") == hid][:1] or s["photo_credits"][:1]
         s["_photo_dir"] = photos
     return s
 

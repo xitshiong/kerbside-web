@@ -3,7 +3,7 @@
  "name_html": "christina Hair & Beauty",
  "tagline": "Hair salon in Springvale",
  "noindex": true,
- "headline": "Great hair, close to home in Springvale.",
+ "headline": "Hair salon in Springvale",
  "intro": "Find christina Hair & Beauty in Springvale: opening hours, directions and a quick way to get in touch.",
  "banner": "Free website preview made for <b>christina Hair & Beauty</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "christinahoang47@gmail.com",
@@ -41,7 +41,7 @@
  "accent": "#3b2230",
  "paper": "#f8f1ee",
  "radius": "4px",
- "services_title": "Services",
+ "services_title": "Cuts, colour and styling",
  "cta_primary": "Call to book",
  "cta_secondary": "Request a booking",
  "bar_cta": "Book",
@@ -57,7 +57,8 @@
    "by": "Daderot",
    "licence": "CC0",
    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg"
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
   }
  ]
 }
