@@ -37,6 +37,7 @@
  "accent": "#24140f",
  "paper": "#f7f1ea",
  "radius": "6px",
+ "layout": "venue",
  "services_title": "Eat with us",
  "cta_primary": "Call to book"
 }

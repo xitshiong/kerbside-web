@@ -43,5 +43,6 @@
  "accent": "#3a2416",
  "paper": "#f8f0e3",
  "radius": "6px",
+ "layout": "venue",
  "services_title": "From our oven"
 }
