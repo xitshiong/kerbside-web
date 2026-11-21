@@ -13,7 +13,7 @@
 {% if noindex %}<meta name="robots" content="noindex,nofollow">{% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family={{ font|replace(' ','+') }}:wght@{{ font_weights }}&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
-{% if hero %}<link rel="preload" as="image" href="img/{{ hero.id }}-1600.jpg" imagesrcset="img/{{ hero.id }}-800.jpg 800w, img/{{ hero.id }}-1600.jpg 1600w" imagesizes="(max-width: 820px) 100vw, 55vw">{% endif %}
+{% if hero %}<link rel="preload" as="image" href="img/{{ hero.id }}-1600.jpg" imagesrcset="img/{{ hero.id }}-800.jpg 800w, img/{{ hero.id }}-1600.jpg 1600w" imagesizes="{% if layout == "venue" %}100vw{% else %}(max-width: 820px) 100vw, 55vw{% endif %}">{% endif %}
 <style>
 /* Hallmark · v2.0.0 · redesign: polish · theme: custom per trade (spec font, colour, paper, radius) · job: call or enquire, action in hero and fixed bar · hero: photo beside headline · nav: wordmark, links, phone · footer: row with credits */
 /* Hallmark · pre-emit critique · weakest: stand-in photos until the client sends their own */
