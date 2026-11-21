@@ -93,7 +93,7 @@ footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <header>
  <a class="brand" href="#top" aria-label="{{ name }} home">{{ name_html|safe }}</a>
  <nav aria-label="Main">
-  <a href="#services">{{ services_title }}</a>{% if about %}<a href="#about">About</a>{% endif %}<a href="#visit">{{ area_title }}</a>
+  {% if services %}<a href="#services">{{ services_title }}</a>{% endif %}{% if about %}<a href="#about">About</a>{% endif %}<a href="#visit">{{ area_title }}</a>
   {% if phone %}<a class="btn" href="tel:{{ phone|replace(' ','') }}">{{ phone }}</a>{% endif %}
  </nav>
 </header>
@@ -115,14 +115,14 @@ footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
  {% if pills %}<ul class="facts" aria-label="At a glance">{% for p in pills %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
 </div>
 
-<section id="services">
+{% if services %}<section id="services">
  <div class="wrap split">
   <div><h2>{{ services_title }}</h2>{% if services_note %}<p class="muted">{{ services_note }}</p>{% endif %}</div>
   <ul class="list">
   {% for s in services %}<li><h3>{{ s.name }}</h3>{% if s.price %}<span class="price">{{ s.price }}</span>{% endif %}{% if s.desc %}<p>{{ s.desc }}</p>{% endif %}</li>{% endfor %}
   </ul>
  </div>
-</section>
+</section>{% endif %}
 
 {% if about %}
 <section id="about" class="about">

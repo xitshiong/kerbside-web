@@ -1,0 +1,42 @@
+{
+ "name": "Lim Kopi",
+ "name_html": "Lim Kopi",
+ "tagline": "Restaurant in Melbourne",
+ "noindex": true,
+ "headline": "Lim Kopi, malaysian food in Melbourne.",
+ "intro": "Find Lim Kopi in Melbourne: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lim Kopi</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "limkopiau@gmail.com",
+ "phone": "",
+ "address": "542 Little Bourke Street, Melbourne",
+ "map_query": "Lim Kopi 542 Little Bourke Street, Melbourne VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "cta_secondary": "Request a booking",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
+}

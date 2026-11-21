@@ -1,0 +1,68 @@
+{
+ "name": "Paradise Cutters",
+ "name_html": "Paradise Cutters",
+ "tagline": "Hair salon in Brunswick",
+ "noindex": true,
+ "headline": "Great hair, close to home in Brunswick.",
+ "intro": "Find Paradise Cutters in Brunswick: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Paradise Cutters</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "paradisecutters@gmail.com",
+ "phone": "(03) 9388 9056",
+ "address": "159 Sydney Road, Brunswick",
+ "map_query": "Paradise Cutters 159 Sydney Road, Brunswick VIC",
+ "hours": [
+  [
+   "Tue–Sat",
+   "10am – 6pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/paradisecutters/"
+  ]
+ ],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Services",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg"
+  }
+ ]
+}

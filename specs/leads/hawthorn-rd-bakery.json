@@ -1,0 +1,53 @@
+{
+ "name": "Hawthorn Rd Bakery",
+ "name_html": "Hawthorn Rd Bakery",
+ "tagline": "Bakery in Caulfield North",
+ "noindex": true,
+ "headline": "Fresh from the oven in Caulfield North.",
+ "intro": "Find Hawthorn Rd Bakery in Caulfield North: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Hawthorn Rd Bakery</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "hawthornroadbakery@gmail.com",
+ "phone": "(03) 9532 8952",
+ "address": "Caulfield North",
+ "map_query": "Hawthorn Rd Bakery Caulfield North VIC",
+ "hours": [
+  [
+   "Mon–Fri",
+   "6am – 3:30pm"
+  ],
+  [
+   "Sat",
+   "6:30am – 3pm"
+  ],
+  [
+   "Sun",
+   "7am – 3pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [
+  {
+   "name": "Bread"
+  },
+  {
+   "name": "Pastries"
+  },
+  {
+   "name": "Cakes to order"
+  },
+  {
+   "name": "Coffee"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#a0522d",
+ "accent": "#3a2416",
+ "paper": "#f8f0e3",
+ "radius": "6px",
+ "services_title": "From our oven"
+}

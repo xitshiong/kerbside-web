@@ -1,0 +1,36 @@
+{
+ "name": "Audio Visual Metro",
+ "name_html": "Audio Visual Metro",
+ "tagline": "Audio visual & computers in Belgrave",
+ "noindex": true,
+ "headline": "Audio Visual Metro, Belgrave.",
+ "intro": "Find Audio Visual Metro in Belgrave: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Audio Visual Metro</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "avmetro@iinet.net.au",
+ "phone": "(03) 9752 6242",
+ "address": "63 Monbulk Road, Belgrave",
+ "map_query": "Audio Visual Metro 63 Monbulk Road, Belgrave VIC",
+ "hours": [
+  [
+   "Tue–Fri",
+   "9:30am – 5:30pm"
+  ],
+  [
+   "Sat",
+   "10am – 4pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

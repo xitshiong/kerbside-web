@@ -1,0 +1,47 @@
+{
+ "name": "Big Boy Cookies",
+ "name_html": "Big Boy Cookies",
+ "tagline": "Cookies & treats in Beaconsfield",
+ "noindex": true,
+ "headline": "Fresh from the oven in Beaconsfield.",
+ "intro": "Find Big Boy Cookies in Beaconsfield: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Big Boy Cookies</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "bigboycookies.au@gmail.com",
+ "phone": "",
+ "address": "114-120 Old Princes Highway, Beaconsfield",
+ "map_query": "Big Boy Cookies 114-120 Old Princes Highway, Beaconsfield VIC",
+ "hours": [
+  [
+   "Tue–Fri",
+   "8am – 4pm"
+  ],
+  [
+   "Sat",
+   "8am – 2pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "cta_secondary": "Send an enquiry",
+ "services": [
+  {
+   "name": "Cookies"
+  },
+  {
+   "name": "Boxes & gifts"
+  },
+  {
+   "name": "Orders for events"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#a0522d",
+ "accent": "#3a2416",
+ "paper": "#f8f0e3",
+ "radius": "6px",
+ "services_title": "From our oven"
+}

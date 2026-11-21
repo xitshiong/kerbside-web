@@ -1,0 +1,75 @@
+{
+ "name": "In2Style Hair",
+ "name_html": "In2Style Hair",
+ "tagline": "Hair salon in Taylors Hill",
+ "noindex": true,
+ "headline": "Great hair, close to home in Taylors Hill.",
+ "intro": "Find In2Style Hair in Taylors Hill: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>In2Style Hair</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "email": "c.in2stylehair@gmail.com",
+ "phone": "(03) 8358 2538",
+ "address": "127 Gourlay Road, Taylors Hill",
+ "map_query": "In2Style Hair 127 Gourlay Road, Taylors Hill VIC",
+ "hours": [
+  [
+   "Mon–Wed",
+   "9am – 5:30pm"
+  ],
+  [
+   "Thu",
+   "9am – 9pm"
+  ],
+  [
+   "Fri",
+   "9am – 7pm"
+  ],
+  [
+   "Sat",
+   "9am – 5:30pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://xitshiong.github.io/kerbside-web/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Services",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg"
+  }
+ ]
+}
