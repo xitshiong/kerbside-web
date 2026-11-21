@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render a site from a JSON spec: build_site.py spec.json out_dir"""
 import json, sys, datetime, pathlib
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader
 
 DEFAULTS = {
     "color": "#0b5394", "accent": "#073763", "icon": "★", "tagline": "", "pills": [],
@@ -16,7 +16,7 @@ def main(spec_path, out_dir):
     spec.setdefault("name_html", spec["name"])
     spec.setdefault("map_query", spec.get("address", ""))
     spec["year"] = datetime.date.today().year
-    env = Environment(loader=FileSystemLoader(pathlib.Path(__file__).parent), autoescape=select_autoescape())
+    env = Environment(loader=FileSystemLoader(pathlib.Path(__file__).parent), autoescape=True)
     html = env.get_template("template.html.j2").render(**spec)
     out = pathlib.Path(out_dir); out.mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(html)
