@@ -1,0 +1,9 @@
+{"name":"Laneway Grind","name_html":"Laneway <span>Grind</span>","tagline":"Specialty coffee & all-day brunch in Brunswick","icon":"☕",
+"color":"#6b4f3a","accent":"#3e2c20","noindex":true,"banner":"Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a> · Want one like this? <a href=\"../../#contact\">Free preview →</a>",
+"headline":"Good coffee. Better brunch. Right on Sydney Rd.","intro":"Locally roasted coffee, house-made pastries and an all-day brunch menu. Dog-friendly courtyard out back.",
+"cta_primary":"Call to book","cta_secondary":"Book a table","pills":["Open 7 days","Dog friendly","Vegan options","Takeaway"],
+"services_title":"Menu favourites","services":[{"name":"Flat white","desc":"Single origin or house blend.","price":"$5.00"},{"name":"Smashed avo","desc":"Sourdough, feta, dukkah, poached egg.","price":"$21"},{"name":"Big breakfast","desc":"Eggs your way, bacon, mushrooms, hash brown.","price":"$26"},{"name":"Chilli scrambled eggs","desc":"Chilli oil, herbs, toasted brioche.","price":"$22"},{"name":"Almond croissant","desc":"Baked in-house every morning.","price":"$7"},{"name":"Catering platters","desc":"For offices and events. Order 48 hours ahead.","price":"From $90"}],
+"rating":"4.7","review_count":"312","about":"Laneway Grind started as a hole-in-the-wall espresso bar and grew into Brunswick's favourite weekend brunch spot. We roast small batches with local roasters and bake everything on site.",
+"area_title":"Visit us","address":"Sydney Rd, Brunswick VIC 3056","map_query":"Sydney Rd Brunswick VIC",
+"hours":[["Mon–Fri","7am – 3pm"],["Sat–Sun","8am – 4pm"]],"contact_title":"Bookings & catering","form_placeholder":"Date, time and number of people","phone":"0491 570 157","email":"hello@example.com",
+"links":[["Instagram","#"],["Order on Uber Eats","#"]]}

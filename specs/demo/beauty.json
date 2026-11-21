@@ -1,0 +1,9 @@
+{"name":"Studio Ember Hair & Beauty","name_html":"Studio <span>Ember</span>","tagline":"Hair, brows & lashes in Box Hill","icon":"✂",
+"color":"#a26769","accent":"#582c4d","noindex":true,"banner":"Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a> · Want one like this? <a href=\"../../#contact\">Free preview →</a>",
+"headline":"Look good, feel great — book in minutes.","intro":"Cuts, colour, brows and lashes by a friendly team in the heart of Box Hill. Walk-ins welcome, appointments preferred.",
+"cta_primary":"Call to book","cta_secondary":"Request a booking","bar_cta":"Book","pills":["Walk-ins welcome","Afterpay","Late nights Thu"],
+"services_title":"Services & prices","services":[{"name":"Women's cut & blow-dry","price":"From $75"},{"name":"Men's cut","price":"From $40"},{"name":"Full colour","price":"From $140"},{"name":"Balayage","price":"From $260"},{"name":"Brow lamination","price":"$85"},{"name":"Lash lift & tint","price":"$95"}],
+"rating":"4.8","review_count":"154","about":"Studio Ember is an independent salon run by stylists who love what they do. We take time to listen, recommend what suits you, and never upsell what you don't need.",
+"area_title":"Visit the studio","address":"Whitehorse Rd, Box Hill VIC 3128","map_query":"Whitehorse Rd Box Hill VIC",
+"hours":[["Tue–Wed","9am – 5:30pm"],["Thursday","9am – 8pm"],["Fri–Sat","9am – 5pm"],["Sun–Mon","Closed"]],
+"contact_title":"Request a booking","form_placeholder":"Service and preferred day/time","phone":"0491 570 158","email":"hello@example.com","links":[["Instagram","#"]]}
