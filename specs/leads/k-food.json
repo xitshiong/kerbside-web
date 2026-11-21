@@ -1,0 +1,53 @@
+{
+ "name": "K-food",
+ "name_html": "K-food",
+ "tagline": "Restaurant in Sydney",
+ "noindex": true,
+ "headline": "Asian restaurant in Sydney",
+ "intro": "Find K-food in Sydney: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>K-food</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "kfoodwaterloo@gmail.com",
+ "phone": "(02) 7900 3753",
+ "address": "",
+ "map_query": "K-food Sydney VIC",
+ "hours": [
+  [
+   "Tue to Sun",
+   "10am to 10pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/kfoodwaterloo/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

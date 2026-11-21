@@ -9,9 +9,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DAYS = dict(Mo="Mon", Tu="Tue", We="Wed", Th="Thu", Fr="Fri", Sa="Sat", Su="Sun", PH="Public holidays")
 LABEL = {"cafe": "Café", "restaurant": "Restaurant", "hairdresser": "Hair salon", "beauty": "Beauty salon", "bakery": "Bakery",
          "pastry": "Cookies & treats", "bar": "Bar", "deli": "Delicatessen", "optician": "Optometrist", "dentist": "Dentist",
-         "doctors": "Clinic", "fitness_centre": "Studio", "panel_beater": "Panel beater", "bicycle": "Bike shop",
+         "doctors": "Clinic", "panel_beater": "Panel beater", "bicycle": "Bike shop",
          "stonemason": "Concreting", "gift": "Homewares & gifts", "candles": "Candles & gifts", "newsagent": "Newsagency",
-         "convenience": "Grocery", "computer": "Audio visual & computers", "homeopathy": "Natural health supplies"}
+         "convenience": "Grocery", "computer": "Audio visual & computers", "homeopathy": "Natural health supplies", "butcher": "Butcher", "greengrocer": "Greengrocer", "tattoo": "Tattoo studio", "fast_food": "Takeaway", "tailor": "Tailor", "pub": "Pub", "veterinary": "Vet clinic", "florist": "Florist", "sports_centre": "Sports centre", "car_repair": "Mechanic", "jewelry": "Jeweller", "lawyer": "Law firm", "chemist": "Pharmacy", "copyshop": "Print shop", "massage": "Massage", "internet_cafe": "Internet café", "locksmith": "Locksmith", "books": "Bookshop", "roof": "Roofing", "plant_hire": "Equipment hire", "accountant": "Accountant", "insurance": "Insurance broker", "general": "General store", "training_centre": "Training centre", "motorcycle_repair": "Motorcycle mechanic", "tea": "Tea shop", "car_parts": "Car parts", "tyres": "Tyre shop", "optometrist": "Optometrist", "coffee": "Coffee roaster", "pet": "Pet shop", "psychotherapist": "Psychologist", "seafood": "Seafood shop", "electrical": "Electrical supplies", "alternative": "Natural therapies", "builder": "Builder", "carpet": "Carpet store", "electronics": "Electronics store", "ice_cream": "Ice creamery", "photo": "Photography studio", "hearing_aids": "Hearing clinic", "advertising_agency": "Ad agency", "engineer": "Engineering firm", "property_management": "Property manager", "wholesale": "Wholesaler", "funeral_directors": "Funeral directors", "party": "Party hire", "karaoke_box": "Karaoke bar", "pet_grooming": "Dog groomer", "clinic": "Clinic", "alcohol": "Bottle shop", "graphic_design": "Design studio", "travel_agency": "Travel agency", "tax_advisor": "Tax agent", "fitness_centre": "Gym"}
 KITS = {
     "cafe": dict(layout="venue", font="Fraunces", color="#9a4a1f", accent="#2d1d14", paper="#f6efe6", photos="cafe", services_title="What we serve",
                  headline="Café in {where}", services=["Coffee", "Breakfast", "Lunch", "Takeaway"],
@@ -87,7 +87,7 @@ def spec_for(r):
         s["_photo_dir"] = photos
     return s
 
-SKIP_KINDS = {"social_facility"}
+SKIP_KINDS = {"social_facility", "mall"}
 
 def main(csv_path, *only):
     seen = set()

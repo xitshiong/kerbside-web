@@ -1,0 +1,68 @@
+{
+ "name": "Flybridge Cafe",
+ "name_html": "Flybridge Cafe",
+ "tagline": "Café in Sydney",
+ "noindex": true,
+ "headline": "Café in Sydney",
+ "intro": "Find Flybridge Cafe in Sydney: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Flybridge Cafe</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "flybridgersc@gmail.com",
+ "phone": "(02) 9327 8589",
+ "address": "",
+ "map_query": "Flybridge Cafe Sydney VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "7am to 4pm"
+  ],
+  [
+   "Sat to Sun",
+   "7am to 5pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Breakfast"
+  },
+  {
+   "name": "Lunch"
+  },
+  {
+   "name": "Takeaway"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#9a4a1f",
+ "accent": "#2d1d14",
+ "paper": "#f6efe6",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "What we serve",
+ "cta_secondary": "Send an enquiry",
+ "hero": {
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg",
+   "id": "m28989985"
+  }
+ ]
+}

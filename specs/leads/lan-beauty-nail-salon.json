@@ -1,0 +1,64 @@
+{
+ "name": "Lan Beauty & Nail Salon",
+ "name_html": "Lan Beauty & Nail Salon",
+ "tagline": "Beauty salon in Sydney",
+ "noindex": true,
+ "headline": "Hair salon in Sydney",
+ "intro": "Find Lan Beauty & Nail Salon in Sydney: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lan Beauty & Nail Salon</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "lan.hoang18@yahoo.com",
+ "phone": "(02) 9570 3522",
+ "address": "24 Norfolk Avenue",
+ "map_query": "Lan Beauty & Nail Salon 24 Norfolk Avenue VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/LanBeautyAndNailSalonBeverlyHills/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Cuts, colour and styling",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}

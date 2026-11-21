@@ -1,0 +1,32 @@
+{
+ "name": "Douglas Partners",
+ "name_html": "Douglas Partners",
+ "tagline": "Engineering firm in West Ryde",
+ "noindex": true,
+ "headline": "Engineering firm in West Ryde",
+ "intro": "Find Douglas Partners in West Ryde: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Douglas Partners</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "sydney@douglaspartners.com.au",
+ "phone": "(02) 9809 0666",
+ "address": "96-98 Hermitage Road, West Ryde",
+ "map_query": "Douglas Partners 96-98 Hermitage Road, West Ryde VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "8am to 5pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

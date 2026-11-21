@@ -1,0 +1,32 @@
+{
+ "name": "Hearing Clinic",
+ "name_html": "Hearing Clinic",
+ "tagline": "Hearing clinic in Sydney",
+ "noindex": true,
+ "headline": "Hearing clinic in Sydney",
+ "intro": "Find Hearing Clinic in Sydney: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Hearing Clinic</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "easternhearing@hotmail.com",
+ "phone": "(02) 9399 9782",
+ "address": "",
+ "map_query": "Hearing Clinic Sydney VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "9:30am to 4:30pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

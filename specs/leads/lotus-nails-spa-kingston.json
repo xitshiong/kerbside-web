@@ -1,0 +1,85 @@
+{
+ "name": "Lotus Nails & Spa Kingston",
+ "name_html": "Lotus Nails & Spa Kingston",
+ "tagline": "Beauty salon in Canberra",
+ "noindex": true,
+ "headline": "Hair salon in Canberra",
+ "intro": "Find Lotus Nails & Spa Kingston in Canberra: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lotus Nails & Spa Kingston</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "Lotus141020@gmail.com",
+ "phone": "(02) 6156 3974",
+ "address": "Eyre Street",
+ "map_query": "Lotus Nails & Spa Kingston Eyre Street VIC",
+ "hours": [
+  [
+   "Mon to Wed",
+   "9:30am to 6pm"
+  ],
+  [
+   "Thu",
+   "9:30am to 8pm"
+  ],
+  [
+   "Fri",
+   "9:30am to 7pm"
+  ],
+  [
+   "Sat",
+   "9am to 7pm"
+  ],
+  [
+   "Sun",
+   "10am to 4pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/people/Lotus-Nails-Spa-Kingston/100063574269013/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Cuts, colour and styling",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}

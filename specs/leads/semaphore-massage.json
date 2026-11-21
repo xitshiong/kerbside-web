@@ -1,0 +1,37 @@
+{
+ "name": "Semaphore Massage",
+ "name_html": "Semaphore Massage",
+ "tagline": "Massage in Adelaide",
+ "noindex": true,
+ "headline": "Massage in Adelaide",
+ "intro": "Find Semaphore Massage in Adelaide: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Semaphore Massage</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "Yangding99@yahoo.com",
+ "phone": "0424 522 123",
+ "address": "",
+ "map_query": "Semaphore Massage Adelaide VIC",
+ "hours": [
+  [
+   "Mon to Sun",
+   "9:30am to 10pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/61580876995576"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

@@ -1,0 +1,57 @@
+{
+ "name": "Raijin Japanese Cuisine",
+ "name_html": "Raijin Japanese Cuisine",
+ "tagline": "Restaurant in Canberra",
+ "noindex": true,
+ "headline": "Japanese restaurant in Canberra",
+ "intro": "Find Raijin Japanese Cuisine in Canberra: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Raijin Japanese Cuisine</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "raijin.jc@gmail.com",
+ "phone": "0415 325 688",
+ "address": "4-6 Bennetts Close",
+ "map_query": "Raijin Japanese Cuisine 4-6 Bennetts Close VIC",
+ "hours": [
+  [
+   "Thu to Sat",
+   "11:30am to 2pm, 5:30pm to 8:30pm"
+  ],
+  [
+   "Tue to Wed",
+   "5:30pm to 8:30pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://facebook.com/RaijinJapaneseCuisine/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

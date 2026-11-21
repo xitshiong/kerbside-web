@@ -1,0 +1,43 @@
+{
+ "name": "Blue Pearl",
+ "name_html": "Blue Pearl",
+ "tagline": "Restaurant in Sydney",
+ "noindex": true,
+ "headline": "Thai restaurant in Sydney",
+ "intro": "Find Blue Pearl in Sydney: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Blue Pearl</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "bluepearlthai@hotmail.com",
+ "phone": "",
+ "address": "",
+ "map_query": "Blue Pearl Sydney VIC",
+ "hours": [],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "cta_secondary": "Request a booking",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
+}

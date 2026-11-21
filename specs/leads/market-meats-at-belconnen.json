@@ -1,0 +1,38 @@
+{
+ "name": "Market Meats at Belconnen",
+ "name_html": "Market Meats at Belconnen",
+ "tagline": "Butcher in Canberra",
+ "noindex": true,
+ "headline": "Butcher in Canberra",
+ "intro": "Find Market Meats at Belconnen in Canberra: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Market Meats at Belconnen</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "marketmeats@tpg.com.au",
+ "phone": "",
+ "address": "",
+ "map_query": "Market Meats at Belconnen Canberra VIC",
+ "hours": [
+  [
+   "Wed to Sun",
+   "8am to 6pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/MarketMeatsBelconnen/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "cta_secondary": "Send an enquiry",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

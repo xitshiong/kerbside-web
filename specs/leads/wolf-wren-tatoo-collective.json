@@ -1,0 +1,41 @@
+{
+ "name": "Wolf & Wren Tatoo Collective",
+ "name_html": "Wolf & Wren Tatoo Collective",
+ "tagline": "Tattoo studio in Adelaide",
+ "noindex": true,
+ "headline": "Tattoo studio in Adelaide",
+ "intro": "Find Wolf & Wren Tatoo Collective in Adelaide: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Wolf & Wren Tatoo Collective</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "wolfandwren@gmail.com",
+ "phone": "(08) 8363 7747",
+ "address": "",
+ "map_query": "Wolf & Wren Tatoo Collective Adelaide VIC",
+ "hours": [
+  [
+   "Sun,Mon",
+   "Closed"
+  ],
+  [
+   "Tue to Sat",
+   "10am to 6pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/wolfandwrentattoo/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

@@ -1,0 +1,52 @@
+{
+ "name": "Porta Via Pizzeria",
+ "name_html": "Porta Via Pizzeria",
+ "tagline": "Restaurant in Narangba",
+ "noindex": true,
+ "headline": "Pizza restaurant in Narangba",
+ "intro": "Find Porta Via Pizzeria in Narangba: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Porta Via Pizzeria</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "portaviaacc@gmail.com",
+ "phone": "(07) 3886 7711",
+ "address": "36 Main Street, Narangba",
+ "map_query": "Porta Via Pizzeria 36 Main Street, Narangba VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "11:30am to 2pm, 4:30pm to 8:30pm"
+  ],
+  [
+   "Sat",
+   "4:30pm to 9pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

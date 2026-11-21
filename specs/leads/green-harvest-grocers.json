@@ -1,0 +1,36 @@
+{
+ "name": "Green Harvest Grocers",
+ "name_html": "Green Harvest Grocers",
+ "tagline": "Greengrocer in Canberra",
+ "noindex": true,
+ "headline": "Greengrocer in Canberra",
+ "intro": "Find Green Harvest Grocers in Canberra: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Green Harvest Grocers</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "greenharvestgrocers@gmail.com",
+ "phone": "(02) 6290 6894",
+ "address": "",
+ "map_query": "Green Harvest Grocers Canberra VIC",
+ "hours": [],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/people/Green-Harvest-Grocers/61571391253338/"
+  ],
+  [
+   "Instagram",
+   "https://www.instagram.com/greenharvestgrocers"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

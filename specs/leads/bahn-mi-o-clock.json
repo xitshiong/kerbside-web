@@ -1,0 +1,60 @@
+{
+ "name": "Bahn Mi O'Clock",
+ "name_html": "Bahn Mi O'Clock",
+ "tagline": "Restaurant in Adelaide",
+ "noindex": true,
+ "headline": "Vietnamese restaurant in Adelaide",
+ "intro": "Find Bahn Mi O'Clock in Adelaide: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Bahn Mi O'Clock</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "banhmioclock@gmail.com",
+ "phone": "0406 288 858",
+ "address": "325 Hancock Road",
+ "map_query": "Bahn Mi O'Clock 325 Hancock Road VIC",
+ "hours": [
+  [
+   "Mon to Wed",
+   "10am to 4pm"
+  ],
+  [
+   "Thu to Fri",
+   "10am to 7:30pm"
+  ],
+  [
+   "Sat",
+   "11am to 3:30pm"
+  ],
+  [
+   "Sun",
+   "11am to 5:30pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

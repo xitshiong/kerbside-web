@@ -1,0 +1,41 @@
+{
+ "name": "Sportennis Club",
+ "name_html": "Sportennis Club",
+ "tagline": "Sports centre in Eight Mile Plains",
+ "noindex": true,
+ "headline": "Sports centre in Eight Mile Plains",
+ "intro": "Find Sportennis Club in Eight Mile Plains: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Sportennis Club</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "sportennisclub@hotmail.com",
+ "phone": "(07) 3841 1096",
+ "address": "52 Padstow Road, Eight Mile Plains",
+ "map_query": "Sportennis Club 52 Padstow Road, Eight Mile Plains VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "6am to 10pm"
+  ],
+  [
+   "Sat,Sun",
+   "6am to 8pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/sportennisclub/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

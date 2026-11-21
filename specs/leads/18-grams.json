@@ -1,0 +1,68 @@
+{
+ "name": "18 Grams",
+ "name_html": "18 Grams",
+ "tagline": "Café in Parramatta",
+ "noindex": true,
+ "headline": "Café in Parramatta",
+ "intro": "Find 18 Grams in Parramatta: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>18 Grams</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "18grams.parramatta@gmail.com",
+ "phone": "",
+ "address": "159-175 Church Street, Parramatta",
+ "map_query": "18 Grams 159-175 Church Street, Parramatta VIC",
+ "hours": [
+  [
+   "Mon to Sat",
+   "7am to 5pm"
+  ],
+  [
+   "Sun",
+   "8am to 5pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "cta_secondary": "Send an enquiry",
+ "services": [
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Breakfast"
+  },
+  {
+   "name": "Lunch"
+  },
+  {
+   "name": "Takeaway"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#9a4a1f",
+ "accent": "#2d1d14",
+ "paper": "#f6efe6",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "What we serve",
+ "hero": {
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg",
+   "id": "m28989985"
+  }
+ ]
+}
