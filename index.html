@@ -54,6 +54,7 @@
   .kw-win img { display: block; width: 100%; height: auto; }
   #work .panel, #how .panel { --p-h: 336px; }
   #how .panel .frame__img { object-position: 50% 0; }
+  @media print { [data-moment] * { opacity: 1 !important; transform: none !important; clip-path: none !important; } }
   @media (max-width: 639px) { #work .panel, #how .panel { --p-h: 220px; } .kw-win__bar { height: 32px; } }
 </style>
 </head>
