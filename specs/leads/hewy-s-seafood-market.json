@@ -1,0 +1,41 @@
+{
+ "name": "Hewy’s Seafood Market",
+ "name_html": "Hewy’s Seafood Market",
+ "tagline": "Seafood shop in Gold Coast",
+ "noindex": true,
+ "headline": "Seafood shop in Gold Coast",
+ "intro": "Find Hewy’s Seafood Market in Gold Coast: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Hewy’s Seafood Market</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "hewysseafoodmarket@gmail.com",
+ "phone": "(07) 5679 5876",
+ "address": "",
+ "map_query": "Hewy’s Seafood Market Gold Coast VIC",
+ "hours": [
+  [
+   "Mon to Sat",
+   "9:30am to 6:30pm"
+  ],
+  [
+   "Sun",
+   "9:30am to 3:30pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/hewysseafoodmarket/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

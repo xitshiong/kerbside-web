@@ -1,0 +1,36 @@
+{
+ "name": "Vision Tattoo Studio",
+ "name_html": "Vision Tattoo Studio",
+ "tagline": "Tattoo studio in Gold Coast",
+ "noindex": true,
+ "headline": "Tattoo studio in Gold Coast",
+ "intro": "Find Vision Tattoo Studio in Gold Coast: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Vision Tattoo Studio</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "2035visiontattoo@gmail.com",
+ "phone": "(07) 5648 1664",
+ "address": "",
+ "map_query": "Vision Tattoo Studio Gold Coast VIC",
+ "hours": [],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://facebook.com/visiontattoomiami"
+  ],
+  [
+   "Instagram",
+   "https://instagram.com/visiontattoomiami"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

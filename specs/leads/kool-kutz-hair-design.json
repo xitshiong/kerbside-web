@@ -1,0 +1,64 @@
+{
+ "name": "Kool Kutz Hair Design",
+ "name_html": "Kool Kutz Hair Design",
+ "tagline": "Hair salon in Sydney",
+ "noindex": true,
+ "headline": "Hair salon in Sydney",
+ "intro": "Find Kool Kutz Hair Design in Sydney: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Kool Kutz Hair Design</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "koolkutzhairdesign@gmail.com",
+ "phone": "",
+ "address": "208 Forest Road",
+ "map_query": "Kool Kutz Hair Design 208 Forest Road VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/KoolKutzHair/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "cta_secondary": "Request a booking",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Cuts, colour and styling",
+ "cta_primary": "Call to book",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}

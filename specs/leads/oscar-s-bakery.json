@@ -1,0 +1,50 @@
+{
+ "name": "Oscar's  Bakery",
+ "name_html": "Oscar's  Bakery",
+ "tagline": "Bakery in Canberra",
+ "noindex": true,
+ "headline": "Bakery in Canberra",
+ "intro": "Find Oscar's  Bakery in Canberra: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Oscar's  Bakery</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "oscarsbakerycafe@yahoo.com.au",
+ "phone": "0402 577 481",
+ "address": "8 Weetangera Place",
+ "map_query": "Oscar's  Bakery 8 Weetangera Place VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/oscarsbakerycafe"
+  ],
+  [
+   "Instagram",
+   "https://www.instagram.com/oscarsbakery/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Bread"
+  },
+  {
+   "name": "Pastries"
+  },
+  {
+   "name": "Cakes to order"
+  },
+  {
+   "name": "Coffee"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#a0522d",
+ "accent": "#3a2416",
+ "paper": "#f8f0e3",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "From our oven"
+}

@@ -1,0 +1,32 @@
+{
+ "name": "CrossFit HF",
+ "name_html": "CrossFit HF",
+ "tagline": "Gym in Sydney",
+ "noindex": true,
+ "headline": "Gym in Sydney",
+ "intro": "Find CrossFit HF in Sydney: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>CrossFit HF</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "holisticfoundations@hotmail.com",
+ "phone": "0405 477 843",
+ "address": "",
+ "map_query": "CrossFit HF Sydney VIC",
+ "hours": [],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/CrossFitHF"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

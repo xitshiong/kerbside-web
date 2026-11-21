@@ -1,0 +1,32 @@
+{
+ "name": "Flowers by Louise",
+ "name_html": "Flowers by Louise",
+ "tagline": "Florist in Acacia Ridge",
+ "noindex": true,
+ "headline": "Florist in Acacia Ridge",
+ "intro": "Find Flowers by Louise in Acacia Ridge: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Flowers by Louise</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "flowersbylouise11@outlook.com",
+ "phone": "0485 093 748",
+ "address": "5 Stanley Street, Acacia Ridge",
+ "map_query": "Flowers by Louise 5 Stanley Street, Acacia Ridge VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/Flowers-by-Louise-Inspired-by-you-113504464161306/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

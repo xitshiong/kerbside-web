@@ -1,0 +1,61 @@
+{
+ "name": "Chi Koko",
+ "name_html": "Chi Koko",
+ "tagline": "Restaurant in Sydney",
+ "noindex": true,
+ "headline": "Chicken restaurant in Sydney",
+ "intro": "Find Chi Koko in Sydney: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Chi Koko</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "chikokohurstville@gmail.com",
+ "phone": "(02) 8937 2978",
+ "address": "378-380 Forest Road",
+ "map_query": "Chi Koko 378-380 Forest Road VIC",
+ "hours": [
+  [
+   "Mon to Thu,Sun",
+   "11:30am to 9pm"
+  ],
+  [
+   "Fri to Sat",
+   "11:30am to 9:30pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/hurstvillekokochicken/"
+  ],
+  [
+   "Instagram",
+   "https://www.instagram.com/chikoko_hurstville"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking"
+}

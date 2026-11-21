@@ -1,0 +1,32 @@
+{
+ "name": "Foothills Cycles",
+ "name_html": "Foothills Cycles",
+ "tagline": "Bike shop in Perth",
+ "noindex": true,
+ "headline": "Bike shop in Perth",
+ "intro": "Find Foothills Cycles in Perth: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Foothills Cycles</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "foothillscycles@outlook.com",
+ "phone": "(08) 9390 7892",
+ "address": "2860B Albany Highway",
+ "map_query": "Foothills Cycles 2860B Albany Highway VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/foothillscycles/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

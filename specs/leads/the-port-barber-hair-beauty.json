@@ -1,0 +1,77 @@
+{
+ "name": "The Port Barber Hair Beauty",
+ "name_html": "The Port Barber Hair Beauty",
+ "tagline": "Hair salon in North Coogee",
+ "noindex": true,
+ "headline": "Hair salon in North Coogee",
+ "intro": "Find The Port Barber Hair Beauty in North Coogee: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>The Port Barber Hair Beauty</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "theportbarberhairbeauty@outlook.com",
+ "phone": "0432 256 980",
+ "address": "6 Calypso Parade, North Coogee",
+ "map_query": "The Port Barber Hair Beauty 6 Calypso Parade, North Coogee VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "9am to 5pm"
+  ],
+  [
+   "Sat",
+   "9am to 1pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/The-Port-Barber-Hair-Beauty-109286121632230"
+  ],
+  [
+   "Instagram",
+   "https://www.instagram.com/the_port_barber_hair_beauty/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Cuts, colour and styling",
+ "cta_primary": "Call to book",
+ "cta_secondary": "Request a booking",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}

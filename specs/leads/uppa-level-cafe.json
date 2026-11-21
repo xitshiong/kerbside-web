@@ -1,0 +1,77 @@
+{
+ "name": "Uppa Level Cafe",
+ "name_html": "Uppa Level Cafe",
+ "tagline": "Café in Canberra",
+ "noindex": true,
+ "headline": "Café in Canberra",
+ "intro": "Find Uppa Level Cafe in Canberra: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Uppa Level Cafe</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "uppalevelcafe@gmail.com",
+ "phone": "(02) 6295 0880",
+ "address": "71 Leichhardt Street",
+ "map_query": "Uppa Level Cafe 71 Leichhardt Street VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "7am to 3pm"
+  ],
+  [
+   "Sat",
+   "8am to 1pm"
+  ],
+  [
+   "Sun",
+   "Closed"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://m.facebook.com/uppalevelcafe?refsrc=deprecated&_rdr#_=_"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Breakfast"
+  },
+  {
+   "name": "Lunch"
+  },
+  {
+   "name": "Takeaway"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#9a4a1f",
+ "accent": "#2d1d14",
+ "paper": "#f6efe6",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "What we serve",
+ "cta_secondary": "Send an enquiry",
+ "hero": {
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg",
+   "id": "m28989985"
+  }
+ ]
+}

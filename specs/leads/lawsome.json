@@ -1,0 +1,32 @@
+{
+ "name": "Lawsome",
+ "name_html": "Lawsome",
+ "tagline": "Law firm in Sydney",
+ "noindex": true,
+ "headline": "Law firm in Sydney",
+ "intro": "Find Lawsome in Sydney: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lawsome</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "admin@lawsome.com.au",
+ "phone": "(02) 9502 3104",
+ "address": "8 Shaw Street",
+ "map_query": "Lawsome 8 Shaw Street VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/www.facebook.com/100063473134072/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}

@@ -1,0 +1,32 @@
+{
+ "name": "Wilde Style Health & Fitness",
+ "name_html": "Wilde Style Health & Fitness",
+ "tagline": "Gym in Parkside",
+ "noindex": true,
+ "headline": "Gym in Parkside",
+ "intro": "Find Wilde Style Health & Fitness in Parkside: directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Wilde Style Health & Fitness</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "jwilde41@gmail.com",
+ "phone": "0430 377 100",
+ "address": "Glen Osmond Road, Parkside",
+ "map_query": "Wilde Style Health & Fitness Glen Osmond Road, Parkside VIC",
+ "hours": [],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/wildestylehealthandfitness/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px"
+}
