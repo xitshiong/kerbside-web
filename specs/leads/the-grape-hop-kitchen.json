@@ -5,7 +5,7 @@
  "noindex": true,
  "headline": "the grape & HOP kitchen in Montmorency.",
  "intro": "Find the grape & HOP kitchen in Montmorency: opening hours, directions and a quick way to get in touch.",
- "banner": "Free website preview made for <b>the grape & HOP kitchen</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+ "banner": "Free website preview made for <b>the grape & HOP kitchen</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "lincoln@grapehop.com",
  "phone": "(03) 8406 7979",
  "address": "12 Were Street, Montmorency",
@@ -13,11 +13,11 @@
  "hours": [
   [
    "Tue,Wed",
-   "5pm – 10pm"
+   "5pm to 10pm"
   ],
   [
-   "Thu–Sun",
-   "12pm – 10pm"
+   "Thu to Sun",
+   "12pm to 10pm"
   ]
  ],
  "area_title": "Visit us",

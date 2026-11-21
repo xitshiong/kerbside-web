@@ -47,11 +47,11 @@ def hours(oh):
     for part in [x.strip() for x in oh.split(";") if x.strip()]:
         m = re.match(r"^([A-Za-z ,\-]+?)\s+(.+)$", part)
         if not m: return []
-        days = re.sub(r"\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b", lambda d: DAYS[d.group(1)], m.group(1)).replace("-", "–")
+        days = re.sub(r"\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b", lambda d: DAYS[d.group(1)], m.group(1)).replace("-", " to ")
         times = m.group(2)
         if times in ("off", "closed"): v = "Closed"
         else:
-            try: v = ", ".join(" – ".join(t12(x.strip()) for x in r.split("-")) for r in times.split(","))
+            try: v = ", ".join(" to ".join(t12(x.strip()) for x in r.split("-")) for r in times.split(","))
             except Exception: return []
         out.append([days, v])
     return out
@@ -66,7 +66,7 @@ def spec_for(r):
     s = dict(name=r["name"], name_html=r["name"], tagline=f"{label} in {where}", noindex=True,
              headline=kit.pop("headline").format(name=r["name"], where=where, cuisine=cuisine),
              intro=f"Find {r['name']} in {where}" + (": opening hours, directions and a quick way to get in touch." if hrs else ": directions and a quick way to get in touch."),
-             banner=f"Free website preview made for <b>{r['name']}</b> by <a href=\"../../\">Kerbside Web</a> · Sample text and stock photos, not yet live",
+             banner=f"Free website preview made for <b>{r['name']}</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
              email=r["email"], phone=phone_fmt(r["phone"]) if r["phone"] else "", address=addr,
              map_query=f"{r['name']} {addr or where} VIC", hours=hrs,
              area_title="Visit us" if addr else "Find us", contact_title="Get in touch",

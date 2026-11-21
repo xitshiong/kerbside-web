@@ -5,8 +5,8 @@
  "color": "#9b4d5b",
  "accent": "#3b2230",
  "noindex": true,
- "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a> · Want one like this? <a href=\"../../#contact\">Free preview →</a>",
- "headline": "Look good, feel great — book in minutes.",
+ "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a>. <a href=\"../../#contact\">Get a free preview of your own</a>",
+ "headline": "Look good, feel great, book in minutes.",
  "intro": "Cuts, colour, brows and lashes by a friendly team in the heart of Box Hill. Walk-ins welcome, appointments preferred.",
  "cta_primary": "Call to book",
  "cta_secondary": "Request a booking",
@@ -49,19 +49,19 @@
  "map_query": "Whitehorse Rd Box Hill VIC",
  "hours": [
   [
-   "Tue–Wed",
-   "9am – 5:30pm"
+   "Tue to Wed",
+   "9am to 5:30pm"
   ],
   [
    "Thursday",
-   "9am – 8pm"
+   "9am to 8pm"
   ],
   [
-   "Fri–Sat",
-   "9am – 5pm"
+   "Fri to Sat",
+   "9am to 5pm"
   ],
   [
-   "Sun–Mon",
+   "Sun to Mon",
    "Closed"
   ]
  ],

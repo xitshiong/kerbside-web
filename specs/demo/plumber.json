@@ -5,7 +5,7 @@
  "color": "#0d5bd7",
  "accent": "#0b2545",
  "noindex": true,
- "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a> · Want one like this? <a href=\"../../#contact\">Free preview →</a>",
+ "banner": "Demo site for a <b>fictional</b> business, made by <a href=\"../../\">Kerbside Web</a>. <a href=\"../../#contact\">Get a free preview of your own</a>",
  "headline": "Blocked drain? Burst pipe? We're there today.",
  "intro": "Licensed, local plumbing for homes and small businesses from Mordialloc to Frankston. Upfront pricing, no call-out surprises.",
  "cta_primary": "Call for same-day service",
@@ -55,12 +55,12 @@
  "area": "Mordialloc, Mentone, Cheltenham, Aspendale, Chelsea, Carrum, Seaford, Frankston and surrounds.",
  "hours": [
   [
-   "Mon–Fri",
-   "7am – 6pm"
+   "Mon to Fri",
+   "7am to 6pm"
   ],
   [
    "Saturday",
-   "8am – 4pm"
+   "8am to 4pm"
   ],
   [
    "Sunday",
