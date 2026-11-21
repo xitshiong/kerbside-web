@@ -1,180 +1,218 @@
 <!doctype html>
-<html lang="en-AU">
+<html lang="en-AU" data-type="service" data-radius="soft" data-buttons="block" data-motion>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kerbside Web: $299 websites for Melbourne small businesses</title>
-<meta name="description" content="Mobile-first websites for Melbourne tradies, cafés and salons. We build your site first. You only pay $299 if you like it.">
-<meta name="theme-color" content="#14213d">
-<meta property="og:title" content="Kerbside Web: your website, built before you pay">
-<meta property="og:description" content="$299 mobile-first websites for Melbourne small businesses. Free preview first, pay only if you like it.">
-<meta property="og:image" content="assets/plumber.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kerbside Web: websites for Melbourne small businesses</title>
+<meta name="description" content="A one-page website for your café, trade or salon, built free before you decide. $299 once if you want it live, nothing if you don't.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kerbside Web: websites for Melbourne small businesses">
+<meta property="og:description" content="See your website before you pay. $299 once, nothing if you don't want it.">
+<meta property="og:image" content="https://kerbsidedesign.com/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#c3d7e5">
+<link rel="canonical" href="https://kerbsidedesign.com/">
+<meta name="site-kind" content="other">
+<meta name="page-type" content="service">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<link rel="stylesheet" href="assets/icons/icon.css">
 <style>
-/* Hallmark · v2.0.0 · redesign: polish · theme: custom (navy ink, kerbside orange, warm paper) · job: get a free preview · hero: headline beside three phone previews · nav: wordmark, links, cta · footer: contact row */
-/* Hallmark · pre-emit critique · weakest: no client work yet, so demos and real previews carry the proof instead of testimonials */
-:root{--ink:#14213d;--muted:#4f5a70;--paper:#f6f3ec;--hi:#c2410c;--hi-bright:#ff6a33;--hi-deep:#9a3412;--on:#fffaf3;--soft:#c7cedd;--tray:#e7e2d7;--night:#0b1222;--shadow:rgba(20,33,61,.45);--line:rgba(20,33,61,.14);--display:"Bricolage Grotesque",system-ui,sans-serif}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;overflow-x:clip}
-body{margin:0;font:400 17px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:clip}
-img{max-width:100%;display:block}a{color:inherit;text-underline-offset:3px}
-:focus-visible{outline:3px solid var(--hi);outline-offset:3px;border-radius:4px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
-h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.03em;line-height:1;margin:0;overflow-wrap:break-word;min-width:0}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
-.logo{font-family:var(--display);font-weight:800;font-size:24px;text-decoration:none;letter-spacing:-.03em}.logo span{color:var(--hi)}
-header nav{display:flex;gap:26px;align-items:center;font-weight:500;font-size:15px}header nav a:not(.btn){text-decoration:none}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 24px;border-radius:999px;background:var(--hi);color:var(--on);font-weight:700;text-decoration:none;border:2px solid var(--hi);transition:transform .16s cubic-bezier(.2,.7,.2,1),background-color .16s ease,border-color .16s ease,color .16s ease}
-.btn:hover{background:var(--hi-deep);border-color:var(--hi-deep)}.btn:active{transform:scale(.98)}
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.ghost:hover{background:var(--ink);color:var(--on)}
-.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;align-items:center;padding:clamp(24px,5vw,64px) 0 clamp(48px,7vw,96px)}
-h1{font-size:clamp(46px,7.4vw,96px);margin-bottom:24px;text-wrap:balance}
-.lead{font-size:clamp(18px,1.7vw,21px);color:var(--muted);max-width:36ch;margin:0 0 30px}
-.ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-.note{font-size:15px;color:var(--muted);margin:16px 0 0}
-.phones{position:relative;height:clamp(460px,46vw,600px)}
-.phones a{position:absolute;width:44%;border-radius:26px;overflow:hidden;border:8px solid var(--ink);background:var(--ink);box-shadow:0 30px 60px -20px var(--shadow);transition:transform .25s ease}
-.phones a:hover{transform:translateY(-6px)}
-.phones img{height:auto;aspect-ratio:390/844;object-fit:cover;object-position:top;width:100%}
-.phones a:nth-child(1){left:0;top:12%;transform:rotate(-5deg)}.phones a:nth-child(1):hover{transform:rotate(-5deg) translateY(-6px)}
-.phones a:nth-child(2){left:28%;top:0;z-index:2}
-.phones a:nth-child(3){right:0;top:14%;transform:rotate(5deg)}.phones a:nth-child(3):hover{transform:rotate(5deg) translateY(-6px)}
-.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding:24px 0;margin:0;list-style:none}
-.strip b{display:block;font-family:var(--display);font-size:clamp(26px,3vw,36px);letter-spacing:-.03em;line-height:1.1}
-.strip span{color:var(--muted);font-size:15px}
-section{padding:clamp(56px,8vw,112px) 0}
-h2{font-size:clamp(36px,5vw,64px);margin-bottom:20px;text-wrap:balance}
-.sub{color:var(--muted);font-size:19px;max-width:48ch;margin:0 0 40px}
-.demos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-.demos a{text-decoration:none;display:block}
-.demos figure{margin:0 0 14px;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:var(--tray);transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s ease}
-.demos img{width:100%;height:100%;object-fit:cover;object-position:top}
-@media(hover:hover){.demos a:hover figure{transform:translateY(-4px);box-shadow:0 24px 48px -24px var(--shadow)}}
-.demos h3{font-size:24px}.demos p{margin:4px 0 0;color:var(--muted)}
-.price{background:var(--ink);color:var(--on);border-radius:28px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
-.price .big{font-family:var(--display);font-weight:800;font-size:clamp(88px,13vw,168px);line-height:.9;letter-spacing:-.05em;color:var(--hi-bright);font-variant-numeric:tabular-nums}
-.price .big small{font-size:22px;color:var(--soft);letter-spacing:0;font-weight:600}
-.price h2{color:var(--on)}
-.price ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.price li{padding-left:30px;position:relative}.price li:before{content:"";position:absolute;left:0;top:.5em;width:14px;height:8px;border-left:3px solid var(--hi-bright);border-bottom:3px solid var(--hi-bright);transform:rotate(-45deg)}
-.extras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:28px;border-top:2px solid var(--ink)}
-.extras div{padding:22px 22px 22px 0;border-bottom:1px solid var(--line)}
-.extras b{font-family:var(--display);font-size:28px;letter-spacing:-.03em;display:block}
-.extras span{color:var(--muted)}
-.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;counter-reset:s}
-.steps li{border-top:2px solid var(--ink);padding-top:18px}
-.steps li:before{counter-increment:s;content:"0" counter(s);font-family:var(--display);font-weight:800;font-size:44px;color:var(--hi);display:block;line-height:1;margin-bottom:14px}
-.steps b{display:block;font-size:19px;margin-bottom:6px}.steps span{color:var(--muted)}
-.faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px}
-details{border-bottom:1px solid var(--line);padding:18px 0}
-summary{font-weight:700;font-size:19px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
-summary::-webkit-details-marker{display:none}summary:after{content:"+";font-size:26px;line-height:1;color:var(--hi)}
-details[open] summary:after{content:"\2212"}
-details p{color:var(--muted);margin:10px 0 0;max-width:60ch}
-.cta{background:var(--hi);color:var(--on);border-radius:28px;padding:clamp(32px,6vw,80px);text-align:center}
-.cta h2{color:var(--on)}.cta p{font-size:19px;margin:0 auto 30px;max-width:44ch}
-.cta .btn{background:var(--ink);border-color:var(--ink);color:var(--on);font-size:18px}.cta .btn:hover{background:var(--night);border-color:var(--night)}
-footer{padding:32px 0 48px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
-@media(max-width:900px){
- .hero,.price,.faq{grid-template-columns:minmax(0,1fr)}
- .phones{height:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
- .phones a{position:static;width:auto;border-width:5px;border-radius:18px;transform:none!important}
- .strip,.steps{grid-template-columns:repeat(2,minmax(0,1fr))}
- .demos,.extras{grid-template-columns:minmax(0,1fr)}
- header nav a:not(.btn){display:none}
+:root {
+  --p-bg: #c3d7e5; --p-surface: #d0e0eb; --p-ink: #141414; --p-muted: #4a5068;
+  --p-accent: #0f5257; --p-accent-ink: #ffffff; --p-action: #0f5257; --p-action-ink: #ffffff;
+  --p-inv-bg: #141414; --p-inv-surface: #1e1f20; --p-inv-ink: #c3d7e5; --p-inv-muted: #808b94;
+  --p-inv-accent: #c3d7e5; --p-inv-accent-ink: #141414; --p-inv-action: #c3d7e5; --p-inv-action-ink: #141414;
+  --font-display: "Albert Sans", system-ui, sans-serif;
+  --font-text: "Albert Sans", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.025em;
+  --display-tracking-xl: -0.035em;
 }
-@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-@media(prefers-reduced-motion:no-preference){
- .hero h1,.hero .lead,.hero .ctas,.hero .note{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
- .hero .lead{animation-delay:.08s}.hero .ctas{animation-delay:.16s}.hero .note{animation-delay:.24s}
- .phones{animation:rise .9s .12s cubic-bezier(.2,.7,.2,1) both}
- @supports(animation-timeline:view()){.demos a,.steps li,.extras div,details{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}}
-}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/word-highlight/moment.js">
+<style>
+  #work .panel, #how .panel { --p-h: 336px; }
+  #how .panel .frame__img { object-position: 50% 0; }
+  @media (max-width: 639px) { #work .panel, #how .panel { --p-h: 220px; } }
 </style>
 </head>
 <body>
-<div class="wrap">
-<header><a class="logo" href="#">Kerbside<span>Web</span></a>
- <nav aria-label="Main"><a href="#work">Examples</a><a href="#pricing">Pricing</a><a href="#how">How it works</a><a class="btn ghost" href="#contact">Free preview</a></nav>
+<!-- type: service
+     deal: hero split, nav nav-centre, close close-type, footer footer-dark, rhythm dark-band, buttons block, mark wordmark (arc re-dealt: at 320px the mark pushed the menu button off screen), grounds none
+     palette swap-pastels (cool blue-grey ground, one deep teal, so the colourful sample sites in the screenshots carry the colour), type albert
+     moments: word-highlight in #promise -->
+<header class="nav nav--centre">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top">Skip to content</a>
+    <a class="nav__logo" href="#top">Kerbside Web</a>
+    <nav class="nav__links" aria-label="Main">
+      <div class="nav__item"><a class="nav__link" href="#work">Sample sites</a></div>
+      <div class="nav__item"><a class="nav__link" href="#how">How it works</a></div>
+      <div class="nav__item"><a class="nav__link" href="#pricing">Prices</a></div>
+      <div class="nav__item"><a class="nav__link" href="#faq">Questions</a></div>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--primary" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Get a preview</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+  </div>
 </header>
-<main>
-<div class="hero">
- <div>
-  <h1>See your website before you pay.</h1>
-  <p class="lead">I design fast, mobile-first sites for Melbourne tradies, cafés, salons and local services. I build yours first, for free. If you love it, it’s $299. If not, you walk away.</p>
-  <div class="ctas"><a class="btn" href="#contact">Get my free preview</a><a class="btn ghost" href="#work">See examples</a></div>
-  <p class="note">No deposit, no lock-in contract, and you own the site.</p>
- </div>
- <div class="phones" aria-label="Example websites">
-  <a href="demo/cafe/"><img src="assets/cafe.jpg" width="600" height="1299" alt="Café example website on a phone"></a>
-  <a href="demo/plumber/"><img src="assets/plumber.jpg" width="600" height="1299" alt="Plumber example website on a phone"></a>
-  <a href="demo/beauty/"><img src="assets/beauty.jpg" width="600" height="1299" alt="Hair salon example website on a phone"></a>
- </div>
-</div>
-<ul class="strip">
- <li><b>$299</b><span>flat, one-off price</span></li>
- <li><b>48 hrs</b><span>to go live after you say yes</span></li>
- <li><b>1 tap</b><span>to call, book or get directions</span></li>
- <li><b>$0</b><span>until you've seen it</span></li>
-</ul>
 
-<section id="work">
- <h2>Built for phones, where your customers are.</h2>
- <p class="sub">Three sample sites for made-up businesses. Open them on your phone and try the call and booking buttons.</p>
- <div class="demos">
-  <a href="demo/plumber/"><figure><img src="assets/plumber.jpg" width="600" height="1299" alt="" loading="lazy"></figure><h3>Plumber &amp; trades</h3><p>Same-day call-outs, quote form, service area.</p></a>
-  <a href="demo/cafe/"><figure><img src="assets/cafe.jpg" width="600" height="1299" alt="" loading="lazy"></figure><h3>Café</h3><p>Menu, opening hours, bookings and catering.</p></a>
-  <a href="demo/beauty/"><figure><img src="assets/beauty.jpg" width="600" height="1299" alt="" loading="lazy"></figure><h3>Hair &amp; beauty</h3><p>Price list, booking requests, late nights.</p></a>
- </div>
-</section>
+<main id="top">
+  <section class="hero hero--split" data-enter aria-labelledby="hero-h">
+    <div class="wrap"><div class="hero-text grid hero__grid">
+      <div class="hero__text span-5">
+        <p class="hero__kicker"><span class="dot" aria-hidden="true"></span>Built before you pay</p>
+        <h1 id="hero-h">Websites for Melbourne small businesses</h1>
+        <p class="hero__lead">I build a one-page site for your café, trade or salon first, for free. If you want it live, it costs $299 once. If not, you owe nothing.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Get a preview<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a><a class="btn btn--secondary" href="#work">See the sample sites</a></div>
+      </div>
+      <div class="hero__media span-6 start-7">
+        <img src="assets/work/cafe-desktop.jpg" alt="The Laneway Grind sample café site: a barista at the espresso machine under the headline, with Call to book and Book a table buttons" width="1440" height="900" style="--ly-pos: 0% 0%" fetchpriority="high">
+        <div class="ly-float">
+          <div class="ly-float__row"><span class="ly-live">Preview</span><span>2 days</span></div>
+          <div class="ly-float__title">Laneway Grind, a sample café site</div>
+        </div>
+      </div>
+    </div></div>
+  </section>
 
-<section id="pricing" style="padding-top:0">
- <div class="price">
-  <div><h2>One price. Everything a local business needs.</h2><div class="big">$299<small> AUD, one-off</small></div></div>
-  <ul>
-   <li>Custom one-page site designed for your business</li>
-   <li>Tap-to-call, enquiry form and Google Maps</li>
-   <li>Services and prices, service area, opening hours</li>
-   <li>Your photos and logo added for you</li>
-   <li>Fast, secure and readable on any phone</li>
-   <li>Two rounds of changes included</li>
-  </ul>
- </div>
- <div class="extras">
-  <div><b>$29/mo</b><span>Optional hosting, SSL and small updates. Cancel any time.</span></div>
-  <div><b>$99</b><span>Google Business Profile set up or tidied up.</span></div>
-  <div><b>$690</b><span>Bigger site, up to 5 pages, gallery and local SEO basics.</span></div>
- </div>
-</section>
+  <section class="section" id="work" style="--hm: 2" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="work-h">Sample websites for a café, plumber and salon</h2>
+        <p>Made-up businesses, built the same way as yours would be. Open one and press the call and booking buttons.</p>
+      </div>
+      <div class="grid">
+        <a class="card card--row card--open span-4" href="demo/cafe/">
+          <h3>Café website</h3>
+          <p>Laneway Grind: menu, opening hours, table bookings and catering orders.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/cafe-phone.jpg" alt="The café sample site on a phone, with Call and Book a table buttons fixed at the bottom" loading="lazy"></div>
+        </a>
+        <a class="card card--row card--open span-4" href="demo/plumber/">
+          <h3>Plumber website</h3>
+          <p>Bayside Flow: same-day call-outs, a quote form and the suburbs it covers.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/plumber-desktop.jpg" alt="The plumber sample site: a dripping tap beside the headline Blocked drain? Burst pipe? We're there today." loading="lazy"></div>
+        </a>
+        <a class="card card--row card--open span-4" href="demo/beauty/">
+          <h3>Salon website</h3>
+          <p>Studio Ember: a price list, booking requests and late-night hours.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/beauty-desktop.jpg" alt="The salon sample site: a row of styling chairs beside the headline Look good, feel great, book in minutes" loading="lazy"></div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-<section id="how" style="padding-top:0">
- <h2>How it works</h2>
- <ol class="steps">
-  <li><b>Send your business name</b><span>Or a link to your Google, Facebook or Instagram page.</span></li>
-  <li><b>I build your preview</b><span>Free, usually within 2 days, using your public business info.</span></li>
-  <li><b>Ask for changes</b><span>New photos, wording, colours. I'll make them.</span></li>
-  <li><b>Love it? Pay $299</b><span>By bank transfer or PayID, then it goes live on your domain.</span></li>
- </ol>
-</section>
+  <section class="section statement" id="promise" data-moment="word-highlight" aria-label="The deal">
+    <div class="wrap">
+      <p class="t-label">The deal</p>
+      <p class="mo-wh__text">You see the finished site on your own phone before you pay anything. Ask for changes until it is right, then pay $299 to put it live, or say no thanks and owe <strong>nothing</strong>.</p>
+    </div>
+  </section>
 
-<section id="faq" class="faq" style="padding-top:0">
- <h2>Questions</h2>
- <div>
-  <details><summary>Do I need to prepare anything?</summary><p>No. I start from what's already public about your business. Send your own photos and logo whenever you like and I'll add them.</p></details>
-  <details><summary>What if I don't like the preview?</summary><p>Tell me what to change, or just say no thanks. You owe nothing and I take the preview down.</p></details>
-  <details><summary>Who owns the website?</summary><p>You do. The domain is in your name and you can take the files whenever you like.</p></details>
-  <details><summary>Why is it so cheap?</summary><p>I build on a proven, fast setup and focus on what small businesses actually need: calls, bookings and directions. No bloated features, no lock-in.</p></details>
-  <details><summary>I already have a website. Can you help?</summary><p>Yes. If it's slow, hard to use on phones or out of date, I'll make you a free preview of a better one to compare.</p></details>
- </div>
-</section>
+  <section class="section" id="how" style="--hm: 2" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="how-h">Your website in 3 steps</h2>
+        <p>No forms, calls or meetings unless you want one.</p>
+      </div>
+      <div class="grid">
+        <article class="card card--row card--open span-4">
+          <span class="step-num">1</span>
+          <h3>Send your business name</h3>
+          <p>Or a link to your Google Maps, Facebook or Instagram page.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/plumber-phone.jpg" alt="The plumber sample site on a phone" loading="lazy"></div>
+        </article>
+        <article class="card card--row card--open span-4">
+          <span class="step-num">2</span>
+          <h3>Check your free preview</h3>
+          <p>Usually within 2 days. Ask for new photos, wording or colours.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/beauty-phone.jpg" alt="The salon sample site on a phone" loading="lazy"></div>
+        </article>
+        <article class="card card--row card--open span-4">
+          <span class="step-num">3</span>
+          <h3>Pay $299 and go live</h3>
+          <p>By bank transfer. Your site is on your own domain the same day.</p>
+          <div class="panel"><img class="frame__img" src="assets/work/cafe-desktop.jpg" alt="The café sample site on a laptop screen" loading="lazy"></div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<section id="contact" style="padding-top:0">
- <div class="cta"><h2>Want to see yours?</h2><p>Email your business name or Google Maps link. I'll reply within one business day with your free preview.</p>
- <a class="btn" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Email for a free preview</a></div>
-</section>
+  <section class="section ground-inverse" id="pricing" aria-labelledby="pricing-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5 stack-4">
+        <h2 id="pricing-h">Prices in Australian dollars</h2>
+        <p>Every site has tap-to-call, an enquiry form, Google Maps, your own photos and two rounds of changes. You own it.</p>
+        <ul class="rows">
+          <li><span class="rows__name">One-page website</span><span class="rows__value">$299 once</span></li>
+          <li><span class="rows__name">Bigger website, up to 5 pages</span><span class="rows__value">$690 once</span></li>
+          <li><span class="rows__name">Hosting and small updates</span><span class="rows__value">$29 a month</span></li>
+          <li><span class="rows__name">Google Business Profile set-up</span><span class="rows__value">$99</span></li>
+        </ul>
+        <p><a class="link" href="mailto:kerbsideweb@gmail.com?subject=Website%20prices">Email about prices</a></p>
+      </div>
+      <div class="frame frame--photo frame--split span-6 start-7"><img class="frame__img" src="assets/work/photo-barista.jpg" alt="A barista tamping coffee into the portafilter at an espresso machine" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="faq-h">
+    <div class="wrap grid grid--top">
+      <div class="span-5 stack-4">
+        <h2 id="faq-h">Questions</h2>
+        <p class="muted">Anything else, email kerbsideweb@gmail.com.</p>
+        <div class="frame frame--photo" style="--ratio: 62%"><img class="frame__img" src="assets/work/photo-basins.jpg" alt="Two black hair-washing basins in a salon" loading="lazy"></div>
+      </div>
+      <div class="faq span-6 start-7">
+        <div class="faq__item"><h3>What do I send for the preview?</h3><p>No. I start from what is already public about your business. Send your own photos and logo whenever you like.</p></div>
+        <div class="faq__item"><h3>What if I don't like the preview?</h3><p>Say no thanks. You owe nothing and I take the preview down.</p></div>
+        <div class="faq__item"><h3>Who owns the website?</h3><p>You do. The domain is in your name and you can take the files at any time.</p></div>
+        <div class="faq__item"><h3>Why is the website only $299?</h3><p>Every site is one page built on the same fast setup, aimed at calls, bookings and directions.</p></div>
+        <div class="faq__item"><h3>I already have a website. Can you help?</h3><p>Yes. I'll build a free preview of a new one so you can compare them side by side.</p></div>
+      </div>
+    </div>
+  </section>
 </main>
-<footer><span>Kerbside Web, Melbourne VIC</span><span>Prices in AUD, invoiced by an Australian sole trader</span><a href="mailto:kerbsideweb@gmail.com">kerbsideweb@gmail.com</a></footer>
-</div>
-</body></html>
+
+<footer class="footer closing footer--dark ground-inverse" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--type">
+      <div class="section-head">
+        <h2 id="close-h">Get a preview</h2>
+        <p>Email your business name or Google Maps link and I will start on your preview.</p>
+      </div>
+      <a class="btn btn--primary btn--xl" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Get a preview<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-4 stack-4">
+          <a class="nav__logo" href="#top">Kerbside Web</a>
+          <p class="footer__lede">One-page websites for Melbourne small businesses, by Charles.</p>
+        </div>
+        <div class="span-2 start-7 footer__col"><h3>Sites</h3><ul><li><a href="demo/cafe/">Café</a></li><li><a href="demo/plumber/">Plumber</a></li><li><a href="demo/beauty/">Salon</a></li></ul></div>
+        <div class="span-2 footer__col"><h3>Prices</h3><ul><li><a href="#pricing">One-page site</a></li><li><a href="#how">How it works</a></li></ul></div>
+        <div class="span-2 footer__col"><h3>Contact</h3><ul><li><a href="mailto:kerbsideweb@gmail.com">kerbsideweb@gmail.com</a></li><li>Melbourne VIC</li></ul></div>
+      </div>
+      <div class="footer__legal">
+        <span>&copy; 2026 Kerbside Web. Prices in AUD, invoiced by an Australian sole trader.</span>
+        <a class="credits" href="credits.html">Photographs via Wikimedia Commons</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+</body>
+</html>
