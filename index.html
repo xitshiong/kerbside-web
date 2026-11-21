@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-AU" data-type="service" data-radius="soft" data-buttons="block" data-motion>
+<html lang="en-AU" data-type="software" data-radius="soft" data-ground="sand" data-buttons="arrow" data-motion>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -11,47 +11,58 @@
 <meta property="og:image" content="https://kerbsidedesign.com/share.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#c3d7e5">
+<meta name="theme-color" content="#0c0f0e">
 <link rel="canonical" href="https://kerbsidedesign.com/">
-<meta name="site-kind" content="other">
-<meta name="page-type" content="service">
+<meta name="site-kind" content="software">
+<meta name="page-type" content="software">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/system.css">
 <link rel="stylesheet" href="assets/ui/cards.css">
 <link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/backgrounds/backgrounds.css">
 <link rel="stylesheet" href="assets/layout/layout.css">
 <link rel="stylesheet" href="assets/icons/icon.css">
 <style>
 :root {
-  --p-bg: #c3d7e5; --p-surface: #d0e0eb; --p-ink: #141414; --p-muted: #4a5068;
-  --p-accent: #0f5257; --p-accent-ink: #ffffff; --p-action: #0f5257; --p-action-ink: #ffffff;
-  --p-inv-bg: #141414; --p-inv-surface: #1e1f20; --p-inv-ink: #c3d7e5; --p-inv-muted: #808b94;
-  --p-inv-accent: #c3d7e5; --p-inv-accent-ink: #141414; --p-inv-action: #c3d7e5; --p-inv-action-ink: #141414;
-  --font-display: "Albert Sans", system-ui, sans-serif;
-  --font-text: "Albert Sans", system-ui, sans-serif;
+  --p-bg: #0c0f0e; --p-surface: #151817; --p-ink: #edf0ea; --p-muted: #aeb2ac;
+  --p-accent: #c6f36d; --p-accent-ink: #0c0f0e; --p-action: #c6f36d; --p-action-ink: #0c0f0e;
+  --p-inv-bg: #edf0ea; --p-inv-surface: #dbded8; --p-inv-ink: #0c0f0e; --p-inv-muted: #575a57;
+  --p-inv-accent: #0c0f0e; --p-inv-accent-ink: #edf0ea; --p-inv-action: #0c0f0e; --p-inv-action-ink: #edf0ea;
+  --font-display: "Onest", system-ui, sans-serif;
+  --font-text: "Onest", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --display-weight: 400;
-  --display-tracking: -0.025em;
-  --display-tracking-xl: -0.035em;
+  --display-tracking: -0.035em;
+  --display-tracking-xl: -0.04em;
 }
 </style>
 <script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script src="assets/backgrounds/backgrounds.js"></script>
 <script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
 <link rel="modulepreload" href="assets/moments/moments.js">
 <link rel="modulepreload" href="assets/moments/lib.js">
-<link rel="modulepreload" href="assets/moments/word-highlight/moment.js">
+<link rel="modulepreload" href="assets/moments/letters-assemble/moment.js">
+<link rel="modulepreload" href="assets/moments/iris-opens/moment.js">
 <style>
+  /* the hero window: the café sample site in a browser bar */
+  .kw-win { border-radius: var(--r-lg); overflow: hidden; border: 1px solid color-mix(in srgb, var(--ink) 16%, transparent); background: var(--surface); box-shadow: 0 30px 80px -30px rgba(0,0,0,.7); }
+  .kw-win__bar { display: flex; align-items: center; gap: 12px; height: 40px; padding-inline: 16px; font: 400 13px/1 var(--font-mono); color: var(--muted); border-bottom: 1px solid color-mix(in srgb, var(--ink) 12%, transparent); }
+  .kw-win__bar i { width: 10px; height: 10px; border-radius: 50%; background: color-mix(in srgb, var(--ink) 22%, transparent); }
+  .kw-win__bar span { margin-left: 8px; }
+  .kw-win img { display: block; width: 100%; height: auto; }
   #work .panel, #how .panel { --p-h: 336px; }
   #how .panel .frame__img { object-position: 50% 0; }
-  @media (max-width: 639px) { #work .panel, #how .panel { --p-h: 220px; } }
+  @media (max-width: 639px) { #work .panel, #how .panel { --p-h: 220px; } .kw-win__bar { height: 32px; } }
 </style>
 </head>
 <body>
-<!-- type: service
-     deal: hero split, nav nav-centre, close close-type, footer footer-dark, rhythm dark-band, buttons block, mark wordmark (arc re-dealt: at 320px the mark pushed the menu button off screen), grounds none
-     palette swap-pastels (cool blue-grey ground, one deep teal, so the colourful sample sites in the screenshots carry the colour), type albert
-     moments: word-highlight in #promise -->
+<!-- type: software (a studio selling websites it builds; Tech Forward look requested by the client)
+     deal: hero centred, nav nav-centre, close close-type (close-word re-dealt: the name runs past a phone screen), footer footer-dark (footer-statement re-dealt: its lit ground redraws the main button in another colour), rhythm dark-band, buttons arrow, mark wordmark (dots re-dealt: at 320px a mark pushes the menu button off screen), ground sand
+     palette: the client's own (start.mjs brand): near-black with one electric lime, the Tech Forward brief; type onest
+     effect: silk-folds in the hero window; grounds: band on #deal (mist on #faq dropped: its soft fade broke the section gap)
+     moments: letters-assemble in #deal, iris-opens on #pricing -->
 <header class="nav nav--centre">
   <div class="wrap nav__bar">
     <a class="skip-link" href="#top">Skip to content</a>
@@ -70,19 +81,18 @@
 </header>
 
 <main id="top">
-  <section class="hero hero--split" data-enter aria-labelledby="hero-h">
-    <div class="wrap"><div class="hero-text grid hero__grid">
-      <div class="hero__text span-5">
-        <p class="hero__kicker"><span class="dot" aria-hidden="true"></span>Built before you pay</p>
+  <section class="hero hero--centred" data-enter aria-labelledby="hero-h">
+    <div class="wrap"><div class="hero-text">
+      <div class="hero__c">
+        <a class="pill" href="#how"><span>Free preview</span><span class="muted">Built before you pay</span></a>
         <h1 id="hero-h">Websites for Melbourne small businesses</h1>
-        <p class="hero__lead">I build a one-page site for your café, trade or salon first, for free. If you want it live, it costs $299 once. If not, you owe nothing.</p>
+        <p class="hero__lead">I build a one-page site for your café, trade or salon first, for free. Want it live? $299 once. Not for you? You owe nothing.</p>
         <div class="btn-row"><a class="btn btn--primary" href="mailto:kerbsideweb@gmail.com?subject=Free%20website%20preview&amp;body=Business%20name%3A%0AGoogle%20Maps%20or%20social%20link%3A%0A">Get a preview<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a><a class="btn btn--secondary" href="#work">See the sample sites</a></div>
       </div>
-      <div class="hero__media span-6 start-7">
-        <img src="assets/work/cafe-desktop.jpg" alt="The Laneway Grind sample café site: a barista at the espresso machine under the headline, with Call to book and Book a table buttons" width="1440" height="900" style="--ly-pos: 0% 0%" fetchpriority="high">
-        <div class="ly-float">
-          <div class="ly-float__row"><span class="ly-live">Preview</span><span>2 days</span></div>
-          <div class="ly-float__title">Laneway Grind, a sample café site</div>
+      <div class="hero__window" data-fx="silk-folds" data-fx-seed="7" role="img" aria-label="The Laneway Grind sample café site open in a browser window">
+        <div class="ly-piece kw-win" aria-hidden="true">
+          <div class="kw-win__bar"><i></i><i></i><i></i><span>kerbsidedesign.com/demo/cafe</span></div>
+          <img src="assets/work/cafe-desktop.jpg" alt="" width="1440" height="900" fetchpriority="high">
         </div>
       </div>
     </div></div>
@@ -92,32 +102,32 @@
     <div class="wrap">
       <div class="section-head">
         <h2 id="work-h">Sample websites for a café, plumber and salon</h2>
-        <p>Made-up businesses, built the same way as yours would be. Open one and press the call and booking buttons.</p>
+        <p>Made-up businesses, built the same way as yours would be. Open one on your phone and press the call and booking buttons.</p>
       </div>
       <div class="grid">
         <a class="card card--row card--open span-4" href="demo/cafe/">
           <h3>Café website</h3>
           <p>Laneway Grind: menu, opening hours, table bookings and catering orders.</p>
-          <div class="panel"><img class="frame__img" src="assets/work/cafe-phone.jpg" alt="The café sample site on a phone, with Call and Book a table buttons fixed at the bottom" loading="lazy"></div>
+          <div class="panel"><img class="frame__img" src="assets/work/cafe-desktop.jpg" alt="The café sample site: a barista at the espresso machine under the headline" loading="lazy"></div>
         </a>
         <a class="card card--row card--open span-4" href="demo/plumber/">
           <h3>Plumber website</h3>
           <p>Bayside Flow: same-day call-outs, a quote form and the suburbs it covers.</p>
-          <div class="panel"><img class="frame__img" src="assets/work/plumber-desktop.jpg" alt="The plumber sample site: a dripping tap beside the headline Blocked drain? Burst pipe? We're there today." loading="lazy"></div>
+          <div class="panel"><img class="frame__img" src="assets/work/plumber-desktop.jpg" alt="The plumber sample site: a dripping tap beside the headline" loading="lazy"></div>
         </a>
         <a class="card card--row card--open span-4" href="demo/beauty/">
           <h3>Salon website</h3>
           <p>Studio Ember: a price list, booking requests and late-night hours.</p>
-          <div class="panel"><img class="frame__img" src="assets/work/beauty-desktop.jpg" alt="The salon sample site: a row of styling chairs beside the headline Look good, feel great, book in minutes" loading="lazy"></div>
+          <div class="panel"><img class="frame__img" src="assets/work/beauty-desktop.jpg" alt="The salon sample site: styling chairs beside the headline" loading="lazy"></div>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="section statement" id="promise" data-moment="word-highlight" aria-label="The deal">
+  <section class="section bg-band bg-bleed" id="deal" style="--hm: 1" data-moment="letters-assemble" aria-labelledby="deal-h">
     <div class="wrap">
-      <p class="t-label">The deal</p>
-      <p class="mo-wh__text">You see the finished site on your own phone before you pay anything. Ask for changes until it is right, then pay $299 to put it live, or say no thanks and owe <strong>nothing</strong>.</p>
+      <h2 class="mo-la__type" id="deal-h">See it, then pay $299</h2>
+      <p class="mo-la__sub">Your site is built and on your phone before any money changes hands. Ask for changes until it is right, or say no thanks and owe nothing.</p>
     </div>
   </section>
 
@@ -136,7 +146,7 @@
         </article>
         <article class="card card--row card--open span-4">
           <span class="step-num">2</span>
-          <h3>Check your free preview</h3>
+          <h3>Check your free website preview</h3>
           <p>Usually within 2 days. Ask for new photos, wording or colours.</p>
           <div class="panel"><img class="frame__img" src="assets/work/beauty-phone.jpg" alt="The salon sample site on a phone" loading="lazy"></div>
         </article>
@@ -144,13 +154,13 @@
           <span class="step-num">3</span>
           <h3>Pay $299 and go live</h3>
           <p>By bank transfer. Your site is on your own domain the same day.</p>
-          <div class="panel"><img class="frame__img" src="assets/work/cafe-desktop.jpg" alt="The café sample site on a laptop screen" loading="lazy"></div>
+          <div class="panel"><img class="frame__img" src="assets/work/cafe-phone.jpg" alt="The café sample site on a phone" loading="lazy"></div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section ground-inverse" id="pricing" aria-labelledby="pricing-h">
+  <section class="section ground-inverse" id="pricing" data-moment="iris-opens" data-moment-opts='{"from": "base"}' aria-labelledby="pricing-h">
     <div class="wrap grid grid--top">
       <div class="span-5 stack-4">
         <h2 id="pricing-h">Prices in Australian dollars</h2>
@@ -175,7 +185,7 @@
         <div class="frame frame--photo" style="--ratio: 62%"><img class="frame__img" src="assets/work/photo-basins.jpg" alt="Two black hair-washing basins in a salon" loading="lazy"></div>
       </div>
       <div class="faq span-6 start-7">
-        <div class="faq__item"><h3>What do I send for the preview?</h3><p>No. I start from what is already public about your business. Send your own photos and logo whenever you like.</p></div>
+        <div class="faq__item"><h3>What do I send for the website preview?</h3><p>No. I start from what is already public about your business. Send your own photos and logo whenever you like.</p></div>
         <div class="faq__item"><h3>What if I don't like the preview?</h3><p>Say no thanks. You owe nothing and I take the preview down.</p></div>
         <div class="faq__item"><h3>Who owns the website?</h3><p>You do. The domain is in your name and you can take the files at any time.</p></div>
         <div class="faq__item"><h3>Why is the website only $299?</h3><p>Every site is one page built on the same fast setup, aimed at calls, bookings and directions.</p></div>
@@ -185,7 +195,7 @@
   </section>
 </main>
 
-<footer class="footer closing footer--dark ground-inverse" id="contact" aria-labelledby="close-h">
+<footer class="footer closing footer--dark" id="contact" aria-labelledby="close-h">
   <div class="wrap">
     <div class="closing__cta close--type">
       <div class="section-head">
