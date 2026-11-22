@@ -20,7 +20,7 @@ def main(spec_path, out_dir):
     spec.setdefault("map_query", spec.get("address", ""))
     spec["year"] = datetime.date.today().year
     env = Environment(loader=FileSystemLoader(pathlib.Path(__file__).parent), autoescape=True)
-    html = env.get_template("template.html.j2").render(**spec)
+    html = env.get_template(f"worlds/{spec['world']}.html.j2" if spec.get("world") else "template.html.j2").render(**spec)
     out = pathlib.Path(out_dir); out.mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(html)
     print(out / "index.html")

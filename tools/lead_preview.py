@@ -28,8 +28,17 @@ KITS = {
 KITS["pastry"] = {**KITS["bakery"], "services": ["Cookies", "Boxes & gifts", "Orders for events"]}
 KITS["beauty"] = KITS["hairdresser"]
 GENERIC = dict(font="Archivo", font_weights="700;800", heading_weight=800, color="#1f4fd1", accent="#0f1f3d", paper="#f4f5f7", radius="6px",
-               headline="{label} in {where}", services=[])
+               headline="{label} in {where}", services=[], cta_secondary="Send an enquiry")
 PHOTOS = {"cafe": "cafe", "beauty": "beauty"}
+WORLDS = {"docket": {"cafe", "restaurant", "bakery", "pastry", "bar", "pub", "deli", "fast_food", "ice_cream", "coffee", "tea"},
+          "formula": {"hairdresser", "beauty", "tattoo", "massage"},
+          "tape": {"car_repair", "panel_beater", "roof", "builder", "stonemason", "locksmith", "plant_hire", "motorcycle_repair",
+                   "tyres", "car_parts", "bicycle", "electrical", "engineer"}}
+CALM = {"dentist", "doctors", "clinic", "optician", "optometrist", "lawyer", "accountant", "tax_advisor", "insurance", "psychotherapist",
+        "veterinary", "hearing_aids", "funeral_directors", "alternative", "homeopathy", "property_management", "travel_agency"}
+
+def world_for(kind):
+    return next((w for w, kinds in WORLDS.items() if kind in kinds), "poster")
 
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:40]
 def phone_fmt(p):
@@ -72,13 +81,14 @@ def spec_for(r):
              map_query=f"{r['name']} {addr or where} VIC", hours=hrs,
              area_title="Visit us" if addr else "Find us", contact_title="Get in touch",
              links=[[n, u] for n, u in (("Facebook", r["facebook"]), ("Instagram", r["instagram"])) if u and u.startswith("http")],
-             credit="https://kerbsidedesign.com/")
+             credit="https://kerbsidedesign.com/", world=world_for(r["kind"]))
     if not s["phone"]: s["cta_secondary"] = kit.get("cta_secondary", "Send an enquiry")
     svc = kit.pop("services")
     s["services"] = [{"name": x} for x in svc]
     if not svc: s["services_title"] = ""
     photos = kit.pop("photos", None)
     s.update(kit)
+    if r["kind"] in CALM: s.update(tone="calm", poster_color="#1f3b63", cta_secondary="Request an appointment", bar_cta="Appointments")
     if photos:
         cred = json.loads((ROOT / "specs/demo" / f"{photos}.json").read_text())
         s["hero"], s["about_img"], s["photo_credits"] = cred.get("hero"), None, cred.get("photo_credits", [])

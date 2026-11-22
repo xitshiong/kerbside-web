@@ -15,6 +15,7 @@
  "contact_title": "Get in touch",
  "links": [],
  "credit": "https://kerbsidedesign.com/",
+ "world": "formula",
  "services": [
   {
    "name": "Cuts"
@@ -36,9 +37,9 @@
  "accent": "#3b2230",
  "paper": "#f8f1ee",
  "radius": "4px",
+ "cta_secondary": "Request a booking",
  "services_title": "Cuts, colour and styling",
  "cta_primary": "Call to book",
- "cta_secondary": "Request a booking",
  "bar_cta": "Book",
  "hero": {
   "id": "f152759009",
