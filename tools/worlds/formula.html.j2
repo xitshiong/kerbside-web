@@ -1,0 +1,137 @@
+{% extends "worlds/_base.html.j2" %}
+{% import "worlds/_macros.html.j2" as m %}
+{# World: colourist's formula card. Ruled index-card stock on a plum colour-bar ground; hair-swatch tufts; services set as typed formulas with tube chips. #}
+{% block theme %}#2f1b35{% endblock %}
+{% block fonts %}family=Gloock&family=Hanken+Grotesk:wght@400;500;700&family=Martian+Mono:wght@400;600{% endblock %}
+{% block bodyclass %}w-formula{% endblock %}
+{% block css %}
+:root{--ground:#2f1b35;--ground2:#3d2545;--card:#fdfdfa;--rule:#a9c8e2;--margin:#e0606e;--ink:#1e1620;--soft:#4b414e;--plum:#6d2f6e;--on:#f6eef3;--disp:Gloock,serif;--mono:"Martian Mono",ui-monospace,monospace;--ease:cubic-bezier(.16,1,.3,1)}
+body{font:400 17px/1.6 "Hanken Grotesk",system-ui,sans-serif;color:var(--on);background:var(--ground) repeating-linear-gradient(100deg,#0000 0 2px,rgb(255 255 255/.025) 2px 3px,#0000 3px 6px);caret-color:var(--plum)}
+::selection{background:#d8b67c;color:var(--ink)}
+html{scrollbar-color:var(--plum) var(--ground)}
+a{color:inherit;text-underline-offset:4px}
+:focus-visible{outline:3px solid #d8b67c;outline-offset:3px}
+.banner{background:#1d1021;color:#e5d8e6}.banner a{color:#fdfcf8}
+.wrap{max-width:1140px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+.top{position:sticky;top:0;z-index:10;background:rgb(47 27 53/.96);color:var(--on);border-bottom:1px solid rgb(255 255 255/.12)}
+.top .wrap{display:flex;align-items:center;gap:28px;min-height:64px}
+.brand{font:400 25px/1.1 var(--disp);text-decoration:none;margin-right:auto}
+.top nav{display:flex;gap:24px;font-size:15px}.top nav a{text-decoration:none}.top nav a:hover{text-decoration:underline}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;background:var(--plum);color:#fdfcf8;font:700 16px/1.2 "Hanken Grotesk",sans-serif;text-decoration:none;border:0;border-radius:999px;cursor:pointer;transition:background .2s,transform .2s var(--ease)}
+.btn:hover{background:#4f1f50}.btn:active{transform:translateY(1px)}
+.btn.alt{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.btn.alt:hover{background:rgb(30 22 32/.06)}
+.top .btn{min-height:40px;padding:8px 18px;font-size:15px;background:#d8b67c;color:var(--ink)}
+.card{color:var(--ink);position:relative;background:var(--card) linear-gradient(#0000 0 70px,var(--margin) 70px 72px,#0000 72px) no-repeat;background-image:linear-gradient(#0000 0 70px,var(--margin) 70px 72px,#0000 72px),repeating-linear-gradient(#0000 0 31px,var(--rule) 31px 32px);background-position:0 0,0 72px;background-repeat:no-repeat,repeat;border-radius:3px;box-shadow:0 30px 50px -28px rgb(0 0 0/.7),0 2px 4px rgb(0 0 0/.25);padding:22px clamp(20px,4vw,48px) 36px}
+.card .field{display:flex;flex-wrap:wrap;gap:4px 26px;height:48px;align-items:center;margin:0 0 24px;font:400 12px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--soft);overflow:hidden}
+.card .field b{color:var(--ink);font-weight:600}
+.hero{padding:clamp(36px,6vw,72px) 0 0}
+.hero .card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.62fr);gap:24px clamp(24px,4vw,56px);transform:rotate(-.5deg)}
+.hero .field{grid-column:1/-1}
+h1{font:400 clamp(48px,7.4vw,96px)/.95 var(--disp);letter-spacing:-.02em}
+.formula{font:400 clamp(14px,1.5vw,16px)/2 var(--mono);color:var(--plum);margin:18px 0 0}
+.lead{max-width:52ch;margin:14px 0 0;line-height:32px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.pic{position:relative;margin:0;align-self:start;transform:rotate(2deg);background:#fdfcf8;padding:10px 10px 0;box-shadow:0 18px 28px -18px rgb(0 0 0/.55)}
+.pic img{width:100%;aspect-ratio:1;object-fit:cover}
+.pic::before{content:"";position:absolute;top:-14px;left:28px;width:18px;height:52px;border:3px solid #9aa0a6;border-radius:9px;border-bottom-color:transparent;z-index:2}
+.pic figcaption{font:400 11px/38px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--soft)}
+.ring{position:relative;display:flex;justify-content:center;gap:0;height:clamp(96px,12vw,150px);margin:0 auto;padding-top:6px}
+.ring::before{content:"";position:absolute;top:0;left:50%;width:min(420px,80%);height:14px;transform:translateX(-50%);border-radius:7px;background:linear-gradient(#e9e6ea,#9c96a0)}
+.tuft{width:clamp(30px,4.6vw,46px);height:100%;margin:0 -2px;border-radius:2px 2px 40% 40%/2px 2px 18% 18%;transform-origin:50% 0;transform:rotate(var(--r));animation:fan 1.4s var(--ease) both;background:linear-gradient(90deg,rgb(255 255 255/.16),#0000 30%,rgb(0 0 0/.18)),repeating-linear-gradient(90deg,rgb(255 255 255/.09) 0 1px,#0000 1px 3px),var(--t);box-shadow:0 10px 16px -10px rgb(0 0 0/.6)}
+@keyframes fan{from{transform:rotate(0)}}
+section{padding:clamp(56px,8vw,96px) 0 0}
+.sect{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,4vw,56px);align-items:start}
+.sect>.say{color:var(--on);position:sticky;top:96px}
+h2{font:400 clamp(36px,4.6vw,58px)/1 var(--disp);letter-spacing:-.015em}
+.say p{color:#dccfde;max-width:42ch}
+.f-list{list-style:none;margin:0;padding:0}
+.f-list li{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:0 14px;align-items:start;padding:0;min-height:64px}
+.tube{width:34px;height:14px;margin-top:9px;border-radius:2px 7px 7px 2px;background:linear-gradient(#fff6 0 30%,#0000 30%),var(--t);box-shadow:inset -8px 0 0 #fdfcf8,inset -9px 0 0 #bdb7c0}
+.f-list h3{font:600 15px/32px var(--mono);letter-spacing:-.01em}
+.f-list .pr{font:600 15px/32px var(--mono);color:var(--plum);font-variant-numeric:tabular-nums;white-space:nowrap}
+.f-list p{grid-column:2/-1;margin:0;color:var(--soft);line-height:32px}
+.note{font:400 13px/32px var(--mono);color:var(--soft);margin:0}
+.gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:28px}
+.gal figure{margin:0;background:#fdfcf8;padding:8px 8px 22px;box-shadow:0 18px 28px -18px rgb(0 0 0/.6)}
+.gal figure:nth-child(1){transform:rotate(-1.5deg)}.gal figure:nth-child(3){transform:rotate(1.2deg)}
+.gal img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.about p.big{font:400 clamp(22px,2.4vw,28px)/32px var(--disp);margin:0}
+.hours{width:100%;font:400 14px/1 var(--mono)}
+.hours td{height:32px;padding:0}
+.hours td+td{text-align:right;font-weight:600}
+.addr{display:flex;gap:10px;margin:0;line-height:32px}.addr .ico{margin-top:8px;color:var(--plum)}
+.map{height:300px;margin-top:20px;border-radius:3px;filter:sepia(.15) saturate(.9)}
+.big-tel{display:block;font:400 clamp(38px,5vw,58px)/1.1 var(--disp);text-decoration:none;color:var(--on);margin:16px 0 8px}
+.big-tel:hover{color:#d8b67c}
+.say ul{list-style:none;padding:0;margin:0;display:grid;gap:6px;color:#e8dcea}
+form{display:grid;gap:0}
+form label{font:600 12px/32px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--soft)}
+form input,form textarea{margin:0 0 0;height:32px;padding:0 4px;background:transparent;border:0;border-bottom:1.5px solid var(--ink);border-radius:0;color:var(--ink);font-family:"Hanken Grotesk",sans-serif}
+form textarea{height:auto;line-height:32px;border:0;padding-top:0}
+form input:focus,form textarea:focus{outline:none;background:rgb(216 182 124/.18)}
+form input::placeholder,form textarea::placeholder{color:#6a606d}
+form .btn{justify-self:start;margin-top:24px}
+.foot{max-width:1140px;margin:clamp(64px,8vw,96px) auto 0;padding:24px clamp(16px,4vw,40px) 32px;border-top:1px solid rgb(255 255 255/.18);font-size:14px;color:#d7c9d9}
+.foot a{color:#fdfcf8}.foot p{margin:0 0 6px;display:flex;flex-wrap:wrap;gap:6px 24px}.credits{font-size:13px}
+.bar{background:#1d1021}.bar .btn.alt{color:#fdfcf8;box-shadow:inset 0 0 0 1.5px #fdfcf8}.bar .btn:first-child{background:#d8b67c;color:var(--ink)}
+@media (max-width:860px){.hero .card,.sect{grid-template-columns:minmax(0,1fr)}.sect>.say{position:static}.top nav{display:none}.pic{max-width:320px;justify-self:center}.gal{grid-template-columns:repeat(2,minmax(0,1fr))}.gal figure:nth-child(3){display:none}}
+@media (max-width:560px){.top .btn{display:none}.card .field{height:auto;min-height:48px}}
+{% endblock %}
+{% block page %}
+{% set tufts = ["#16100e","#4a2c21","#8b4527","#b9763f","#d8b67c","#e8dcc6","#7d5a99"] %}
+<div class="top"><div class="wrap">
+ <a class="brand" href="#main">{{ name }}</a>
+ <nav aria-label="Main">{% if services %}<a href="#services">{{ services_title }}</a>{% endif %}<a href="#visit">{{ area_title }}</a><a href="#contact">Contact</a></nav>
+ {% if phone %}<a class="btn" href="{{ m.tel(phone) }}">{{ bar_cta or "Call" }} {{ phone }}</a>{% endif %}
+</div></div>
+<main id="main">
+<div class="wrap hero">
+ <div class="ring" aria-hidden="true">{% for t in tufts %}<span class="tuft" style="--t:{{ t }};--r:{{ (loop.index0 - 3) * 6 }}deg"></span>{% endfor %}</div>
+ <div class="card">
+  <p class="field"><span>Client card</span><span><b>{{ name }}</b></span>{% if address %}<span>{{ address }}</span>{% endif %}</p>
+  <div>
+   <h1>{{ name }}</h1>
+   <p class="formula">{{ headline }}</p>
+   <p class="lead">{{ intro }}</p>
+   <div class="ctas">{% if phone %}<a class="btn" href="{{ m.tel(phone) }}">{{ m.phone_icon() }}{{ cta_primary }}</a>{% endif %}<a class="btn alt" href="#contact">{{ cta_secondary }}</a></div>
+  </div>
+  {% if hero %}<figure class="pic">{{ m.photo(hero, "(max-width: 860px) 320px, 380px") }}<figcaption>{{ tagline }}</figcaption></figure>{% endif %}
+ </div>
+</div>
+
+{% if services %}<section id="services"><div class="wrap sect">
+ <div class="say"><h2>{{ services_title }}</h2>{% if services_note %}<p>{{ services_note }}</p>{% else %}<p>Call or send a booking request and we'll find a time that suits.</p>{% endif %}</div>
+ <div class="card">
+  <p class="field"><span>Formula</span><span><b>{{ services_title }}</b></span></p>
+  <ul class="f-list">{% for s in services %}<li><span class="tube" style="--t:{{ tufts[(loop.index0 + 2) % 7] }}" aria-hidden="true"></span><h3>{{ s.name }}</h3>{% if s.price %}<span class="pr">{{ s.price }}</span>{% else %}<span></span>{% endif %}{% if s.desc %}<p>{{ s.desc }}</p>{% endif %}</li>{% endfor %}</ul>
+ </div>
+</div>
+{% if gallery %}<div class="wrap gal">{% for g in gallery[:3] %}<figure>{{ m.photo(g, "(max-width: 860px) 50vw, 360px") }}</figure>{% endfor %}</div>{% endif %}
+</section>{% endif %}
+
+{% if about %}<section id="about" class="about"><div class="wrap sect">
+ <div class="say"><h2>{{ about_title }}</h2></div>
+ <div class="card"><p class="field"><span>Notes</span></p><p class="big">{{ about }}</p></div>
+</div></section>{% endif %}
+
+<section id="visit"><div class="wrap sect">
+ <div class="say"><h2>{{ area_title }}</h2>{% if area %}<p>{{ area }}</p>{% endif %}</div>
+ <div class="card">
+  <p class="field"><span>Appointments</span><span><b>Hours</b></span></p>
+  {% if hours %}<table class="hours"><caption class="sr">Opening hours</caption>{% for h in hours %}<tr><td>{{ h[0] }}</td><td>{{ h[1] }}</td></tr>{% endfor %}</table>{% endif %}
+  {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }} · <a href="{{ m.maps(map_query) }}">Directions</a></span></p>{% endif %}
+  {% if map_query %}<iframe class="map" loading="lazy" src="https://maps.google.com/maps?q={{ map_query|urlencode }}&output=embed" title="Map of {{ map_query }}"></iframe>{% endif %}
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap sect">
+ <div class="say">
+  <h2>{{ contact_title }}</h2>
+  {% if phone %}<a class="big-tel" href="{{ m.tel(phone) }}">{{ phone }}</a>{% endif %}
+  <ul>{% if email %}<li><a href="mailto:{{ email }}">{{ email }}</a></li>{% endif %}{% for l in links %}<li><a href="{{ l[1] }}">{{ l[0] }}</a></li>{% endfor %}</ul>
+ </div>
+ <div class="card"><p class="field"><span>Booking request</span></p>{{ m.form(email, form_label, form_placeholder, "Send request") }}</div>
+</div></section>
+</main>
+{% endblock %}

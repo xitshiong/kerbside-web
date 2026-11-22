@@ -1,0 +1,154 @@
+{% extends "worlds/_base.html.j2" %}
+{% import "worlds/_macros.html.j2" as m %}
+{# World: kitchen order dockets. Dockets clipped to a steel rail; carbon-book yellow and pink; blue biro. Menu is a long receipt. #}
+{% block theme %}#3b4046{% endblock %}
+{% block fonts %}family=Big+Shoulders+Display:wght@700;900&family=Courier+Prime:wght@400;700&family=Reenie+Beanie{% endblock %}
+{% block bodyclass %}w-docket{% endblock %}
+{% block css %}
+:root{--steel:#d5d9dc;--steel-d:#3b4046;--top:#fcfbf6;--yellow:#f8e48c;--pink:#f7c6d1;--biro:#1c379b;--ink:#1d1c1a;--soft:#4a4740;--disp:"Big Shoulders Display",sans-serif;--type:"Courier Prime",ui-monospace,monospace;--hand:"Reenie Beanie",cursive;--ease:cubic-bezier(.16,1,.3,1)}
+body{font:400 17px/1.55 var(--type);color:var(--ink);background:var(--steel) repeating-linear-gradient(90deg,#0000 0 3px,rgb(255 255 255/.22) 3px 4px,#0000 4px 7px,rgb(0 0 0/.035) 7px 8px);caret-color:var(--biro)}
+::selection{background:var(--yellow);color:var(--ink)}
+html{scrollbar-color:var(--steel-d) var(--steel)}
+a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}
+:focus-visible{outline:3px solid var(--biro);outline-offset:3px}
+.banner{background:var(--steel-d);color:#e9ecee}.banner a{color:#fdfcf8}
+.wrap{max-width:1160px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+.pass{position:sticky;top:0;z-index:10;background:linear-gradient(#f2f4f5,#b9bfc4 55%,#8d949a);border-bottom:1px solid #6d747a;box-shadow:0 6px 14px -8px rgb(0 0 0/.5)}
+.pass .wrap{display:flex;align-items:center;gap:24px;min-height:62px}
+.brand{font:900 26px/1 var(--disp);letter-spacing:.01em;text-transform:uppercase;text-decoration:none;margin-right:auto}
+.pass nav{display:flex;gap:22px;font-size:15px}
+.pass nav a{text-decoration:none}.pass nav a:hover{text-decoration:underline}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;background:var(--biro);color:#fdfcf8;font:700 16px/1.2 var(--type);text-decoration:none;border:0;border-radius:3px;cursor:pointer;box-shadow:0 6px 12px -6px rgb(28 55 155/.6);transition:transform .2s var(--ease),background .2s}
+.btn:hover{background:#142a7a}.btn:active{transform:translateY(1px)}
+.btn.alt{background:var(--top);color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
+.btn.alt:hover{background:var(--yellow)}
+.pass .btn{min-height:42px;padding:8px 16px;font-size:15px}
+.rail{position:relative;margin-top:44px}
+.rail::before{content:"";position:absolute;left:-40px;right:-40px;top:0;height:16px;border-radius:8px;background:linear-gradient(#fbfcfc,#aab1b6 45%,#6b7278 80%,#9aa1a6);box-shadow:0 8px 10px -6px rgb(0 0 0/.45)}
+.dockets{position:relative;display:grid;gap:22px;align-items:start;padding-top:8px}
+.dk{position:relative;background:var(--top);padding:44px clamp(20px,3vw,36px) 32px;box-shadow:0 18px 26px -16px rgb(0 0 0/.45),0 2px 3px rgb(0 0 0/.12);transform-origin:50% 0;-webkit-mask:radial-gradient(circle 5px at 50% 100%,#0000 96%,#151515) 0 100%/14px 10px repeat-x,linear-gradient(#151515,#151515) 0 0/100% calc(100% - 9px) no-repeat;mask:radial-gradient(circle 5px at 50% 100%,#0000 96%,#151515) 0 100%/14px 10px repeat-x,linear-gradient(#151515,#151515) 0 0/100% calc(100% - 9px) no-repeat}
+.dk::before{content:"";position:absolute;top:-2px;left:50%;width:58px;height:26px;margin-left:-29px;border-radius:0 0 6px 6px;background:linear-gradient(#5b6268,#2d3237);box-shadow:0 3px 4px rgb(0 0 0/.35)}
+.dk.y{background:var(--yellow)}.dk.p{background:var(--pink)}
+.dk-head{display:flex;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px;font:700 13px/1.2 var(--type);text-transform:uppercase;letter-spacing:.08em}
+.hero{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}
+.hero.solo{grid-template-columns:minmax(0,1fr);max-width:860px}
+.hero .main{transform:rotate(-.6deg);animation:swing 1.1s var(--ease) both}
+.hero .snap{transform:rotate(1.2deg);margin-top:26px;padding:40px 14px 26px;animation:swing2 1.3s var(--ease) both}
+@keyframes swing{from{transform:rotate(-4deg)}to{transform:rotate(-.6deg)}}
+@keyframes swing2{from{transform:rotate(5deg)}to{transform:rotate(1.2deg)}}
+h1{font:900 clamp(44px,7vw,92px)/.9 var(--disp);text-transform:uppercase;letter-spacing:-.01em}
+.what{font:400 clamp(30px,3.6vw,40px)/1 var(--hand);color:var(--biro);margin:14px 0 0;transform:rotate(-1.5deg)}
+.lead{max-width:56ch;margin:16px 0 0}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.snap img{width:100%;aspect-ratio:1;object-fit:cover;filter:saturate(1.05) contrast(1.03)}
+.snap figcaption{font:400 26px/1 var(--hand);color:var(--biro);margin-top:10px;text-align:center}
+section{padding:clamp(40px,6vw,72px) 0 0}
+h2{font:900 clamp(34px,4.5vw,52px)/.95 var(--disp);text-transform:uppercase}
+.board{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(22px,4vw,48px);align-items:start}
+.receipt{background:var(--top);max-width:560px;width:100%;margin:0 auto;padding:40px clamp(20px,4vw,40px) 44px;box-shadow:0 22px 30px -20px rgb(0 0 0/.45);transform:rotate(.4deg);-webkit-mask:radial-gradient(circle 6px at 50% 100%,#0000 96%,#151515) 0 100%/16px 12px repeat-x,linear-gradient(#151515,#151515) 0 0/100% calc(100% - 11px) no-repeat;mask:radial-gradient(circle 6px at 50% 100%,#0000 96%,#151515) 0 100%/16px 12px repeat-x,linear-gradient(#151515,#151515) 0 0/100% calc(100% - 11px) no-repeat}
+.receipt .rh{text-align:center;border-bottom:2px dashed var(--ink);padding-bottom:16px;margin-bottom:8px}
+.receipt .rh h2{margin-bottom:8px}
+.receipt .rh p{margin:0;font-size:14px;color:var(--soft)}
+.items{list-style:none;margin:0;padding:0}
+.items li{padding:14px 0;border-bottom:1px dashed rgb(29 28 26/.35)}
+.items .ln{display:flex;align-items:baseline;gap:8px;font-weight:700}
+.items .ln::after{content:"";order:1;flex:1;border-bottom:2px dotted rgb(29 28 26/.5);transform:translateY(-4px)}
+.items .ln b{font-weight:700}
+.items .pr{order:2;font-variant-numeric:tabular-nums}
+.items p{margin:4px 0 0;font-size:15px;color:var(--soft)}
+.receipt .rf{text-align:center;margin:20px 0 0;font-size:14px;color:var(--soft)}
+.side{display:grid;gap:26px}
+.side .dk{transform:rotate(-.8deg)}
+.side .dk:nth-child(2){transform:rotate(.9deg)}
+.side img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.note{font:400 clamp(28px,3vw,34px)/1.05 var(--hand);color:var(--biro);margin:0}
+.hours{width:100%;font-size:16px}
+.hours td{padding:9px 0;border-bottom:1px dashed rgb(29 28 26/.45)}
+.hours td+td{text-align:right;font-weight:700}
+.addr{display:flex;gap:10px;align-items:flex-start;margin:18px 0 0;font-weight:700}
+.addr .ico{margin-top:4px;color:var(--biro)}
+.circled{display:inline-block;padding:2px 10px;border:2px solid var(--biro);border-radius:48% 52% 45% 55%/60% 45% 55% 40%;color:var(--biro);text-decoration:none;font-weight:700}
+.map{height:340px;filter:grayscale(.3) contrast(1.05)}
+.mapdk{padding:40px 12px 24px}
+.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.strip .dk{padding:38px 12px 22px}
+.strip .dk:nth-child(1){transform:rotate(-1deg)}.strip .dk:nth-child(3){transform:rotate(1.1deg)}
+.strip img{width:100%;aspect-ratio:1;object-fit:cover}
+.contact .board{align-items:stretch}
+.contact .big{display:inline-flex;align-items:center;gap:12px;font:900 clamp(38px,5vw,60px)/1 var(--disp);text-decoration:none;margin:12px 0 4px}
+.contact .big:hover{color:var(--biro)}
+.contact ul{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px}
+form{display:grid;gap:16px}
+form label{font:700 14px/1.3 var(--type);text-transform:uppercase;letter-spacing:.06em}
+form input,form textarea{margin-top:6px;padding:12px 2px;background:transparent;border:0;border-bottom:2px solid var(--ink);border-radius:0;font-family:var(--hand);font-size:28px;line-height:1.1;color:var(--biro)}
+form textarea{background:repeating-linear-gradient(#0000 0 33px,rgb(29 28 26/.4) 33px 35px);border:0;line-height:35px;padding-top:0}
+form input:focus,form textarea:focus{outline:none;background-color:rgb(255 255 255/.4)}
+form input::placeholder,form textarea::placeholder{color:#3b3832;font-family:var(--type);font-size:15px}
+form .btn{justify-self:start}
+.foot{max-width:1160px;margin:clamp(64px,8vw,96px) auto 0;padding:24px clamp(16px,4vw,40px) 32px;border-top:2px solid var(--steel-d);font-size:14px;color:#33363a}
+.foot p{margin:0 0 6px;display:flex;flex-wrap:wrap;gap:6px 24px}.credits{font-size:13px}
+.bar{background:var(--steel-d)}.bar .btn{min-height:52px;font-size:15px}
+@media (max-width:860px){.hero,.board,.strip{grid-template-columns:minmax(0,1fr)}.pass nav{display:none}.hero .snap{max-width:360px;justify-self:center}.strip .dk:nth-child(n+3){display:none}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){.pass .btn{display:none}}
+{% endblock %}
+{% block page %}
+<div class="pass"><div class="wrap">
+ <a class="brand" href="#main">{{ name }}</a>
+ <nav aria-label="Main">{% if services %}<a href="#menu">{{ services_title }}</a>{% endif %}<a href="#visit">{{ area_title }}</a><a href="#contact">Contact</a></nav>
+ {% if phone %}<a class="btn" href="{{ m.tel(phone) }}">{{ m.phone_icon() }}{{ phone }}</a>{% endif %}
+</div></div>
+<main id="main">
+<div class="wrap rail">
+ <div class="dockets hero{% if not hero %} solo{% endif %}">
+  <div class="dk main">
+   <div class="dk-head"><span>{{ tagline }}</span>{% if phone %}<span>{{ phone }}</span>{% endif %}</div>
+   <h1>{{ name }}</h1>
+   <p class="what">{{ headline }}</p>
+   <p class="lead">{{ intro }}</p>
+   <div class="ctas">{% if phone %}<a class="btn" href="{{ m.tel(phone) }}">{{ m.phone_icon() }}{{ cta_primary }}</a>{% endif %}<a class="btn alt" href="#contact">{{ cta_secondary }}</a></div>
+  </div>
+  {% if hero %}<figure class="dk snap" style="margin:26px 0 0">{{ m.photo(hero, "(max-width: 860px) 360px, 440px") }}<figcaption>{{ hero.caption or "fresh off the pass" }}</figcaption></figure>{% endif %}
+ </div>
+</div>
+
+{% if services %}<section id="menu">
+ <div class="wrap board">
+  <div class="receipt">
+   <div class="rh"><h2>{{ services_title }}</h2><p>{{ name }}{% if address %}<br>{{ address }}{% endif %}</p></div>
+   <ul class="items">{% for s in services %}<li><div class="ln"><b>{{ s.name }}</b>{% if s.price %}<span class="pr">{{ s.price }}</span>{% endif %}</div>{% if s.desc %}<p>{{ s.desc }}</p>{% endif %}</li>{% endfor %}</ul>
+   {% if services_note %}<p class="rf">{{ services_note }}</p>{% endif %}
+  </div>
+  <div class="side">
+   {% if gallery %}<figure class="dk" style="margin:0;padding:38px 12px 20px">{{ m.photo(gallery[0], "(max-width: 860px) 100vw, 440px") }}</figure>{% endif %}
+   {% if about %}<div class="dk p" id="about"><div class="dk-head"><span>{{ about_title }}</span></div><p class="note">{{ about }}</p></div>{% endif %}
+  </div>
+ </div>
+</section>{% endif %}
+
+{% if gallery and gallery|length > 1 %}<section aria-label="Photos"><div class="wrap rail"><div class="dockets strip">{% for g in gallery[1:4] %}<figure class="dk" style="margin:0">{{ m.photo(g, "(max-width: 860px) 50vw, 360px") }}</figure>{% endfor %}</div></div></section>{% endif %}
+
+<section id="visit">
+ <div class="wrap rail"><div class="dockets board">
+  <div class="dk y">
+   <div class="dk-head"><span>{{ area_title }}</span><span>Hours</span></div>
+   {% if hours %}<table class="hours"><caption class="sr">Opening hours</caption>{% for h in hours %}<tr><td>{{ h[0] }}</td><td>{{ h[1] }}</td></tr>{% endfor %}</table>{% endif %}
+   {% if area %}<p>{{ area }}</p>{% endif %}
+   {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }}<br><a class="circled" href="{{ m.maps(map_query) }}">Get directions</a></span></p>{% endif %}
+  </div>
+  {% if map_query %}<div class="dk mapdk"><iframe class="map" loading="lazy" src="https://maps.google.com/maps?q={{ map_query|urlencode }}&output=embed" title="Map of {{ map_query }}"></iframe></div>{% endif %}
+ </div></div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="wrap rail"><div class="dockets board">
+  <div class="dk">
+   <div class="dk-head"><span>{{ contact_title }}</span></div>
+   <h2>{% if phone %}Ring the counter{% else %}Send a note{% endif %}</h2>
+   {% if phone %}<a class="big" href="{{ m.tel(phone) }}">{{ phone }}</a>{% endif %}
+   <ul>{% if email %}<li><a href="mailto:{{ email }}">{{ email }}</a></li>{% endif %}{% for l in links %}<li><a href="{{ l[1] }}">{{ l[0] }}</a></li>{% endfor %}</ul>
+  </div>
+  <div class="dk p"><div class="dk-head"><span>Write it down</span></div>{{ m.form(email, form_label, form_placeholder) }}</div>
+ </div></div>
+</section>
+</main>
+{% endblock %}

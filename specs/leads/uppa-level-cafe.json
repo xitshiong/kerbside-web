@@ -33,6 +33,7 @@
   ]
  ],
  "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
  "services": [
   {
    "name": "Coffee"
@@ -54,9 +55,9 @@
  "accent": "#2d1d14",
  "paper": "#f6efe6",
  "radius": "6px",
+ "cta_secondary": "Send an enquiry",
  "layout": "venue",
  "services_title": "What we serve",
- "cta_secondary": "Send an enquiry",
  "hero": {
   "id": "m28989985",
   "w": 1200,

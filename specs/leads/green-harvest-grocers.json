@@ -24,6 +24,7 @@
   ]
  ],
  "credit": "https://kerbsidedesign.com/",
+ "world": "poster",
  "services": [],
  "services_title": "",
  "font": "Archivo",
@@ -32,5 +33,6 @@
  "color": "#1f4fd1",
  "accent": "#0f1f3d",
  "paper": "#f4f5f7",
- "radius": "6px"
+ "radius": "6px",
+ "cta_secondary": "Send an enquiry"
 }

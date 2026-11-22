@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ name }}: {{ tagline }}</title>
+<meta name="description" content="{{ intro }}">
+<meta name="theme-color" content="{% block theme %}{{ color }}{% endblock %}">
+<meta property="og:title" content="{{ name }}: {{ tagline }}">
+<meta property="og:description" content="{{ intro }}">
+<meta property="og:type" content="website">
+{% if hero %}<meta property="og:image" content="img/{{ hero.id }}-1600.jpg">{% endif %}
+{% if noindex %}<meta name="robots" content="noindex,nofollow">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?{% block fonts %}{% endblock %}&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;overflow-x:clip;scroll-behavior:smooth}
+body{margin:0;padding-bottom:76px;overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{text-wrap:balance;margin:0}
+p{text-wrap:pretty}
+table{border-collapse:collapse;font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.skip{position:absolute;left:-999px;z-index:30}.skip:focus{left:12px;top:12px;padding:8px 12px;background:#fdfcf8;color:#151515}
+.banner{font:400 13px/1.45 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.banner a{font-weight:600}
+.ico{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.map{width:100%;border:0;display:block}
+form label{display:block}
+form input,form textarea{display:block;width:100%;font:inherit;font-size:16px}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+.bar a{flex:1}
+@media (max-width:760px){.bar{display:flex}}
+@media (min-width:761px){body{padding-bottom:0}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+{% block css %}{% endblock %}
+</style>
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+<a class="skip" href="#main">Skip to content</a>
+{% if banner %}<div class="banner">{{ banner|safe }}</div>{% endif %}
+{% block page %}{% endblock %}
+<footer class="foot">
+ <p><span>© {{ year }} {{ name }}{% if abn %}, ABN {{ abn }}{% endif %}</span>{% if credit %} <span>Website by <a href="{{ credit }}">Kerbside Web</a></span>{% endif %}</p>
+ {% if photo_credits %}<p class="credits">Photos: {% for p in photo_credits %}<a href="{{ p.page }}">{{ p.by }}</a> (<a href="{{ p.licenceUrl }}">{{ p.licence }}</a>){% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
+</footer>
+<div class="bar">{% if phone %}<a class="btn" href="tel:{{ phone|replace(' ','') }}">Call</a>{% endif %}<a class="btn alt" href="#contact">{{ bar_cta or cta_secondary }}</a></div>
+</body></html>

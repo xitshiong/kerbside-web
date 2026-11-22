@@ -24,6 +24,7 @@
  "contact_title": "Get in touch",
  "links": [],
  "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
  "services": [
   {
    "name": "Dine in"
@@ -45,8 +46,8 @@
  "accent": "#24140f",
  "paper": "#f7f1ea",
  "radius": "6px",
+ "cta_secondary": "Request a booking",
  "layout": "venue",
  "services_title": "Eat with us",
- "cta_primary": "Call to book",
- "cta_secondary": "Request a booking"
+ "cta_primary": "Call to book"
 }
