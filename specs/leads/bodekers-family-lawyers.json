@@ -1,0 +1,37 @@
+{
+ "name": "Bodekers Family Lawyers",
+ "name_html": "Bodekers Family Lawyers",
+ "tagline": "Law firm in Perth",
+ "noindex": true,
+ "headline": "Law firm in Perth",
+ "intro": "Find Bodekers Family Lawyers in Perth: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Bodekers Family Lawyers</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "info@bodekers.com.au",
+ "phone": "(08) 9323 7711",
+ "address": "29 St Georges Terrace, Perth",
+ "map_query": "Bodekers Family Lawyers 29 St Georges Terrace, Perth VIC",
+ "hours": [
+  [
+   "Mon to Sun",
+   "9am to 5pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "poster",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px",
+ "cta_secondary": "Request an appointment",
+ "tone": "calm",
+ "poster_color": "#1f3b63",
+ "bar_cta": "Appointments"
+}

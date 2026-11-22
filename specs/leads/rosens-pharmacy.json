@@ -1,0 +1,38 @@
+{
+ "name": "Rosens Pharmacy",
+ "name_html": "Rosens Pharmacy",
+ "tagline": "Pharmacy in Perth",
+ "noindex": true,
+ "headline": "Pharmacy in Perth",
+ "intro": "Find Rosens Pharmacy in Perth: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Rosens Pharmacy</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "rosenspharmacy@outlook.com",
+ "phone": "(08) 9325 2843",
+ "address": "234 Hay Street",
+ "map_query": "Rosens Pharmacy 234 Hay Street VIC",
+ "hours": [
+  [
+   "Mon to Fri",
+   "8:30am to 5pm"
+  ],
+  [
+   "Sat",
+   "8:30am to 1pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "poster",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px",
+ "cta_secondary": "Send an enquiry"
+}

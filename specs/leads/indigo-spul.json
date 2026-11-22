@@ -1,0 +1,34 @@
+{
+ "name": "Indigo Spul",
+ "name_html": "Indigo Spul",
+ "tagline": "Homewares & gifts in Perth",
+ "noindex": true,
+ "headline": "Homewares & gifts in Perth",
+ "intro": "Find Indigo Spul in Perth: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Indigo Spul</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "megabes@optusnet.com.au",
+ "phone": "0402 827 123",
+ "address": "74 South Terrace",
+ "map_query": "Indigo Spul 74 South Terrace VIC",
+ "hours": [
+  [
+   "Fri to Sun",
+   "9am to 6pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "poster",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px",
+ "cta_secondary": "Send an enquiry"
+}
