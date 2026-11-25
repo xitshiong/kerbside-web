@@ -98,6 +98,7 @@ def spec_for(r):
     return s
 
 SKIP_KINDS = {"social_facility", "mall"}
+REMOVED = set((ROOT / "tools/removed.txt").read_text().split())  # businesses that asked to be removed
 
 def main(csv_path, *only):
     seen = set()
@@ -107,6 +108,7 @@ def main(csv_path, *only):
         if sl in seen: sl = slug(r["name"] + "-" + (r["suburb"] or r["street"]))
         seen.add(sl)
         if only and sl not in only: continue
+        if sl in REMOVED: continue
         s = spec_for(r); pd = s.pop("_photo_dir", None)
         (ROOT / "specs/leads").mkdir(parents=True, exist_ok=True)
         sp = ROOT / "specs/leads" / f"{sl}.json"; sp.write_text(json.dumps(s, ensure_ascii=False, indent=1))
