@@ -8,15 +8,15 @@
  "banner": "Free website preview made for <b>Study Made Easy</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "info@studymadeeasy.com.au",
  "phone": "0410 574 343",
- "address": "196",
- "map_query": "Study Made Easy 196 WA",
+ "address": "",
+ "map_query": "Study Made Easy Perth WA",
  "hours": [
   [
    "Mon to Fri",
    "9am to 5pm"
   ]
  ],
- "area_title": "Visit us",
+ "area_title": "Find us",
  "contact_title": "Get in touch",
  "links": [],
  "credit": "https://kerbsidedesign.com/",

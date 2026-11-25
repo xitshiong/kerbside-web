@@ -45,9 +45,12 @@ CITY_STATE = {"Canberra": "ACT", "Hobart": "TAS", "Darwin": "NT", "Sydney": "NSW
               "Brisbane": "QLD", "Gold Coast": "QLD", "Sunshine Coast": "QLD", "Townsville": "QLD", "Cairns": "QLD", "Toowoomba": "QLD",
               "Perth": "WA", "Adelaide": "SA"}
 
+ACT_2620 = {"hume", "beard", "oaks estate", "tharwa", "symonston", "kowen", "majura", "tuggeranong", "paddys river"}
+
 def state(r):
     pc = (r.get("postcode") or "").strip()
     if pc.isdigit() and len(pc) == 4:
+        if pc == "2620": return "ACT" if (r.get("suburb") or "").strip().lower() in ACT_2620 else "NSW"
         if pc.startswith("26") and int(pc) <= 2618 or pc.startswith("29"): return "ACT"
         return STATES.get(pc[0], "")
     return CITY_STATE.get(r.get("city"), "VIC")
@@ -81,7 +84,8 @@ def spec_for(r):
     kit = {**GENERIC, **KITS.get(r["kind"], {})}
     where = r["suburb"] or r.get("city") or "Melbourne"
     label = LABEL.get(r["kind"], r["kind"].replace("_", " ").capitalize())
-    addr = ", ".join(x for x in (r["street"], r["suburb"]) if x)
+    street = "" if r["street"].strip().isdigit() else r["street"]
+    addr = ", ".join(x for x in (street, r["suburb"]) if x)
     cuisine = f", {r['cuisine'].split(';')[0].replace('_', ' ')} food" if r.get("cuisine") else ""
     cuisine_label = f"{r['cuisine'].split(';')[0].replace('_', ' ').capitalize()} restaurant" if r.get("cuisine") else label
     hrs = hours(r["hours"]) if r["hours"] else []
@@ -116,12 +120,14 @@ def main(csv_path, *only):
     seen = set()
     known = {}  # keep each emailed lead on the URL it was sent
     for sp in (ROOT / "specs/leads").glob("*.json"):
-        known.setdefault(json.loads(sp.read_text()).get("email", "").lower(), sp.stem)
+        d = json.loads(sp.read_text())
+        known.setdefault((d.get("email", "").lower(), d.get("name", "").lower()), sp.stem)
     taken = set(known.values())
     for r in csv.DictReader(open(csv_path)):
         if r.get("existing_site") or r["kind"] in SKIP_KINDS: continue
-        sl = known.get(r["email"].lower()) or slug(r["name"])
-        if sl in seen or (sl in taken and known.get(r["email"].lower()) != sl): sl = slug(r["name"] + "-" + (r["suburb"] or r["street"]))
+        key = (r["email"].strip().rstrip(".").lower(), r["name"].lower())
+        sl = known.get(key) or slug(r["name"])
+        if sl in seen or (sl in taken and known.get(key) != sl): sl = slug(r["name"] + "-" + (r["suburb"] or r["street"]))
         seen.add(sl)
         if only and sl not in only: continue
         if sl in REMOVED: continue
