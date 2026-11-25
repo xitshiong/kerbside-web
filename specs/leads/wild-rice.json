@@ -1,0 +1,57 @@
+{
+ "name": "Wild Rice",
+ "name_html": "Wild Rice",
+ "tagline": "Restaurant in Townsville",
+ "noindex": true,
+ "headline": "Thai restaurant in Townsville",
+ "intro": "Find Wild Rice in Townsville: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Wild Rice</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "wildricelaothai@gmail.com",
+ "phone": "(07) 4771 6242",
+ "address": "",
+ "map_query": "Wild Rice Townsville QLD",
+ "hours": [
+  [
+   "Mon to Thu",
+   "5:30pm to 9pm"
+  ],
+  [
+   "Fri to Sat",
+   "5:30pm to 10pm"
+  ],
+  [
+   "Sun",
+   "Closed"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "cta_secondary": "Request a booking",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
+}

@@ -1,0 +1,70 @@
+{
+ "name": "Bunker Espresso Bar",
+ "name_html": "Bunker Espresso Bar",
+ "tagline": "Café in Perth",
+ "noindex": true,
+ "headline": "Café in Perth",
+ "intro": "Find Bunker Espresso Bar in Perth: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Bunker Espresso Bar</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "thebunkerespressobar@gmail.com",
+ "phone": "",
+ "address": "",
+ "map_query": "Bunker Espresso Bar Perth WA",
+ "hours": [
+  [
+   "Mon to Sun",
+   "5am to 3:30pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/thebunkerespressobar/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
+ "cta_secondary": "Send an enquiry",
+ "services": [
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Breakfast"
+  },
+  {
+   "name": "Lunch"
+  },
+  {
+   "name": "Takeaway"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#9a4a1f",
+ "accent": "#2d1d14",
+ "paper": "#f6efe6",
+ "radius": "6px",
+ "layout": "venue",
+ "services_title": "What we serve",
+ "hero": {
+  "id": "m28989985",
+  "w": 1200,
+  "h": 858,
+  "alt": "Espresso running into a small white cup at the machine",
+  "pos": "50% 55%"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Takeaway",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Double_ristretto_naked_portafilter.jpg",
+   "id": "m28989985"
+  }
+ ]
+}

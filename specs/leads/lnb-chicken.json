@@ -1,0 +1,55 @@
+{
+ "name": "LNB Chicken",
+ "name_html": "LNB Chicken",
+ "tagline": "Takeaway in Hobart",
+ "noindex": true,
+ "headline": "Takeaway in Hobart",
+ "intro": "Find LNB Chicken in Hobart: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>LNB Chicken</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "hello@lnbsalamanca.com.au",
+ "phone": "(03) 6169 9596",
+ "address": "",
+ "map_query": "LNB Chicken Hobart TAS",
+ "hours": [
+  [
+   "Mon",
+   "10:30am to 3pm"
+  ],
+  [
+   "Tue to Thu",
+   "10:30am to 8pm"
+  ],
+  [
+   "Fri",
+   "10:30am to 12am"
+  ],
+  [
+   "Sat",
+   "12am to 2:30am, 6pm to 12am"
+  ],
+  [
+   "Sun",
+   "12am to 4:30am"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/LnBSalmanca"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px",
+ "cta_secondary": "Send an enquiry"
+}

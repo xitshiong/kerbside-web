@@ -1,0 +1,76 @@
+{
+ "name": "Glitter Nails & Beauty",
+ "name_html": "Glitter Nails & Beauty",
+ "tagline": "Beauty salon in Lucas",
+ "noindex": true,
+ "headline": "Beauty salon in Lucas",
+ "intro": "Find Glitter Nails & Beauty in Lucas: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Glitter Nails & Beauty</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "glitternailsandbeauty@gmail.com",
+ "phone": "",
+ "address": "6 Coltman Plaza, Lucas",
+ "map_query": "Glitter Nails & Beauty 6 Coltman Plaza, Lucas VIC",
+ "hours": [
+  [
+   "Mon to Sat",
+   "9:30am to 5:30pm"
+  ],
+  [
+   "Wed",
+   "9:30am to 6:30pm"
+  ],
+  [
+   "Thu,Fri",
+   "9:30am to 7pm"
+  ],
+  [
+   "Sun",
+   "9:30am to 4pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/GNBLucas/"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "formula",
+ "cta_secondary": "Request a booking",
+ "services": [
+  {
+   "name": "Treatments"
+  },
+  {
+   "name": "Appointments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "services_title": "Treatments",
+ "cta_primary": "Call to book",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}

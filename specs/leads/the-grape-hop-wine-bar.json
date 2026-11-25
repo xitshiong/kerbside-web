@@ -1,40 +1,53 @@
 {
- "name": "the grape & HOP wine bar",
- "name_html": "the grape & HOP wine bar",
- "tagline": "Bar in Montmorency",
+ "name": "the grape & HOP kitchen",
+ "name_html": "the grape & HOP kitchen",
+ "tagline": "Restaurant in Montmorency",
  "noindex": true,
- "headline": "Bar in Montmorency",
- "intro": "Find the grape & HOP wine bar in Montmorency: opening hours, directions and a quick way to get in touch.",
- "banner": "Free website preview made for <b>the grape & HOP wine bar</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "headline": "Restaurant in Montmorency",
+ "intro": "Find the grape & HOP kitchen in Montmorency: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>the grape & HOP kitchen</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "lincoln@grapehop.com",
  "phone": "(03) 8406 7979",
- "address": "10 Were Street, Montmorency",
- "map_query": "the grape & HOP wine bar 10 Were Street, Montmorency VIC",
+ "address": "12 Were Street, Montmorency",
+ "map_query": "the grape & HOP kitchen 12 Were Street, Montmorency VIC",
  "hours": [
   [
-   "Tue to Fri",
-   "3pm till late"
+   "Tue,Wed",
+   "5pm to 10pm"
   ],
   [
-   "Sat",
-   "2pm till late"
-  ],
-  [
-   "Sun",
-   "2pm to 9:30pm"
+   "Thu to Sun",
+   "12pm to 10pm"
   ]
  ],
  "area_title": "Visit us",
  "contact_title": "Get in touch",
  "links": [],
  "credit": "https://kerbsidedesign.com/",
- "services": [],
- "services_title": "",
- "font": "Archivo",
+ "world": "docket",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
  "font_weights": "700;800",
  "heading_weight": 800,
- "color": "#1f4fd1",
- "accent": "#0f1f3d",
- "paper": "#f4f5f7",
- "radius": "6px"
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "cta_secondary": "Request a booking",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
 }

@@ -1,0 +1,69 @@
+{
+ "name": "Lords and Lads",
+ "name_html": "Lords and Lads",
+ "tagline": "Hair salon in Ballarat",
+ "noindex": true,
+ "headline": "Hair salon in Ballarat",
+ "intro": "Find Lords and Lads in Ballarat: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Lords and Lads</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "reception@lordsandlads.com.au",
+ "phone": "(03) 5374 0920",
+ "address": "6 Camp Street",
+ "map_query": "Lords and Lads 6 Camp Street VIC",
+ "hours": [
+  [
+   "Tue to Fri",
+   "10am to 6pm"
+  ],
+  [
+   "Sat",
+   "9am to 1:30pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "formula",
+ "services": [
+  {
+   "name": "Cuts"
+  },
+  {
+   "name": "Colour"
+  },
+  {
+   "name": "Blow-dry & styling"
+  },
+  {
+   "name": "Treatments"
+  }
+ ],
+ "font": "Cormorant Garamond",
+ "font_weights": "500;600;700",
+ "heading_weight": 800,
+ "color": "#9b4d5b",
+ "accent": "#3b2230",
+ "paper": "#f8f1ee",
+ "radius": "4px",
+ "cta_secondary": "Request a booking",
+ "services_title": "Cuts, colour and styling",
+ "cta_primary": "Call to book",
+ "bar_cta": "Book",
+ "hero": {
+  "id": "f152759009",
+  "w": 1920,
+  "h": 1080,
+  "alt": "Bright salon with styling chairs and mirrors"
+ },
+ "about_img": null,
+ "photo_credits": [
+  {
+   "by": "Daderot",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hair_salon_-_Arlington,_MA.jpg",
+   "id": "f152759009"
+  }
+ ]
+}
