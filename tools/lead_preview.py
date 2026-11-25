@@ -121,7 +121,7 @@ def main(csv_path, *only):
     known = {}  # keep each emailed lead on the URL it was sent
     for sp in (ROOT / "specs/leads").glob("*.json"):
         d = json.loads(sp.read_text())
-        known.setdefault((d.get("email", "").lower(), d.get("name", "").lower()), sp.stem)
+        known.setdefault((d.get("email", "").strip().rstrip(".").lower(), d.get("name", "").lower()), sp.stem)
     taken = set(known.values())
     for r in csv.DictReader(open(csv_path)):
         if r.get("existing_site") or r["kind"] in SKIP_KINDS: continue
