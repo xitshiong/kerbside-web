@@ -120,7 +120,7 @@ form .btn{justify-self:start;margin-top:24px}
  <div class="card">
   <p class="field"><span>Appointments</span><span><b>Hours</b></span></p>
   {% if hours %}<table class="hours"><caption class="sr">Opening hours</caption>{% for h in hours %}<tr><td>{{ h[0] }}</td><td>{{ h[1] }}</td></tr>{% endfor %}</table>{% endif %}
-  {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }} · <a href="{{ m.maps(map_query) }}">Directions</a></span></p>{% endif %}
+  {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }} · <a href="{{ m.maps(map_query) }}">Directions</a></span></p>{% elif map_query %}<p class="addr">{{ m.pin_icon() }}<span><a href="{{ m.maps(map_query) }}">Directions</a></span></p>{% endif %}
   {% if map_query %}<iframe class="map" loading="lazy" src="https://maps.google.com/maps?q={{ map_query|urlencode }}&output=embed" title="Map of {{ map_query }}"></iframe>{% endif %}
  </div>
 </div></section>
