@@ -26,7 +26,7 @@ KITS = {
                  headline="Bakery in {where}", services=["Bread", "Pastries", "Cakes to order", "Coffee"]),
 }
 KITS["pastry"] = {**KITS["bakery"], "services": ["Cookies", "Boxes & gifts", "Orders for events"]}
-KITS["beauty"] = KITS["hairdresser"]
+KITS["beauty"] = {**KITS["hairdresser"], "services_title": "Treatments", "headline": "Beauty salon in {where}", "services": ["Treatments", "Appointments"]}
 GENERIC = dict(font="Archivo", font_weights="700;800", heading_weight=800, color="#1f4fd1", accent="#0f1f3d", paper="#f4f5f7", radius="6px",
                headline="{label} in {where}", services=[], cta_secondary="Send an enquiry")
 PHOTOS = {"cafe": "cafe", "beauty": "beauty"}
@@ -39,6 +39,21 @@ CALM = {"dentist", "doctors", "clinic", "optician", "optometrist", "lawyer", "ac
 
 def world_for(kind):
     return next((w for w, kinds in WORLDS.items() if kind in kinds), "poster")
+
+STATES = {"2": "NSW", "3": "VIC", "4": "QLD", "5": "SA", "6": "WA", "7": "TAS", "0": "NT"}
+CITY_STATE = {"Canberra": "ACT", "Hobart": "TAS", "Darwin": "NT", "Sydney": "NSW", "Newcastle": "NSW", "Wollongong": "NSW",
+              "Brisbane": "QLD", "Gold Coast": "QLD", "Sunshine Coast": "QLD", "Townsville": "QLD", "Cairns": "QLD", "Toowoomba": "QLD",
+              "Perth": "WA", "Adelaide": "SA"}
+
+ACT_2620 = {"hume", "beard", "oaks estate", "tharwa", "symonston", "kowen", "majura", "tuggeranong", "paddys river"}
+
+def state(r):
+    pc = (r.get("postcode") or "").strip()
+    if pc.isdigit() and len(pc) == 4:
+        if pc == "2620": return "ACT" if (r.get("suburb") or "").strip().lower() in ACT_2620 else "NSW"
+        if pc.startswith("26") and int(pc) <= 2618 or pc.startswith("29"): return "ACT"
+        return STATES.get(pc[0], "")
+    return CITY_STATE.get(r.get("city"), "VIC")
 
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:40]
 def phone_fmt(p):
@@ -69,7 +84,8 @@ def spec_for(r):
     kit = {**GENERIC, **KITS.get(r["kind"], {})}
     where = r["suburb"] or r.get("city") or "Melbourne"
     label = LABEL.get(r["kind"], r["kind"].replace("_", " ").capitalize())
-    addr = ", ".join(x for x in (r["street"], r["suburb"]) if x)
+    street = "" if r["street"].strip().isdigit() else r["street"]
+    addr = ", ".join(x for x in (street, r["suburb"]) if x)
     cuisine = f", {r['cuisine'].split(';')[0].replace('_', ' ')} food" if r.get("cuisine") else ""
     cuisine_label = f"{r['cuisine'].split(';')[0].replace('_', ' ').capitalize()} restaurant" if r.get("cuisine") else label
     hrs = hours(r["hours"]) if r["hours"] else []
@@ -78,7 +94,7 @@ def spec_for(r):
              intro=f"Find {r['name']} in {where}" + (": opening hours, directions and a quick way to get in touch." if hrs else ": directions and a quick way to get in touch."),
              banner=f"Free website preview made for <b>{r['name']}</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
              email=r["email"], phone=phone_fmt(r["phone"]) if r["phone"] else "", address=addr,
-             map_query=f"{r['name']} {addr or where} VIC", hours=hrs,
+             map_query=f"{r['name']} {addr or where} {state(r)}".strip(), hours=hrs,
              area_title="Visit us" if addr else "Find us", contact_title="Get in touch",
              links=[[n, u] for n, u in (("Facebook", r["facebook"]), ("Instagram", r["instagram"])) if u and u.startswith("http")],
              credit="https://kerbsidedesign.com/", world=world_for(r["kind"]))
@@ -98,15 +114,23 @@ def spec_for(r):
     return s
 
 SKIP_KINDS = {"social_facility", "mall"}
+REMOVED = set((ROOT / "tools/removed.txt").read_text().split())  # businesses that asked to be removed
 
 def main(csv_path, *only):
     seen = set()
+    known = {}  # keep each emailed lead on the URL it was sent
+    for sp in (ROOT / "specs/leads").glob("*.json"):
+        d = json.loads(sp.read_text())
+        known.setdefault((d.get("email", "").strip().rstrip(".").lower(), d.get("name", "").lower()), sp.stem)
+    taken = set(known.values())
     for r in csv.DictReader(open(csv_path)):
         if r.get("existing_site") or r["kind"] in SKIP_KINDS: continue
-        sl = slug(r["name"])
-        if sl in seen: sl = slug(r["name"] + "-" + (r["suburb"] or r["street"]))
+        key = (r["email"].strip().rstrip(".").lower(), r["name"].lower())
+        sl = known.get(key) or slug(r["name"])
+        if sl in seen or (sl in taken and known.get(key) != sl): sl = slug(r["name"] + "-" + (r["suburb"] or r["street"]))
         seen.add(sl)
         if only and sl not in only: continue
+        if sl in REMOVED: continue
         s = spec_for(r); pd = s.pop("_photo_dir", None)
         (ROOT / "specs/leads").mkdir(parents=True, exist_ok=True)
         sp = ROOT / "specs/leads" / f"{sl}.json"; sp.write_text(json.dumps(s, ensure_ascii=False, indent=1))

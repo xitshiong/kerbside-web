@@ -1,0 +1,54 @@
+{
+ "name": "Aussie Thai Fusion",
+ "name_html": "Aussie Thai Fusion",
+ "tagline": "Restaurant in Townsville",
+ "noindex": true,
+ "headline": "Thai restaurant in Townsville",
+ "intro": "Find Aussie Thai Fusion in Townsville: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Aussie Thai Fusion</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "aussiethaifusion@gmail.com",
+ "phone": "(07) 4721 2524",
+ "address": "",
+ "map_query": "Aussie Thai Fusion Townsville QLD",
+ "hours": [
+  [
+   "Wed to Sun",
+   "11am to 9pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://www.facebook.com/Aussie-Thai-Fusion-413149449023841"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "cta_secondary": "Request a booking",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
+}

@@ -3,13 +3,13 @@
  "name_html": "Dainty Doll Eyelashes",
  "tagline": "Beauty salon in Belmore",
  "noindex": true,
- "headline": "Hair salon in Belmore",
+ "headline": "Beauty salon in Belmore",
  "intro": "Find Dainty Doll Eyelashes in Belmore: opening hours, directions and a quick way to get in touch.",
  "banner": "Free website preview made for <b>Dainty Doll Eyelashes</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
  "email": "daintydolleyelashes@gmail.com",
  "phone": "",
  "address": "535 Burwood Road, Belmore",
- "map_query": "Dainty Doll Eyelashes 535 Burwood Road, Belmore VIC",
+ "map_query": "Dainty Doll Eyelashes 535 Burwood Road, Belmore NSW",
  "hours": [
   [
    "Mon to Sun",
@@ -29,16 +29,10 @@
  "cta_secondary": "Request a booking",
  "services": [
   {
-   "name": "Cuts"
-  },
-  {
-   "name": "Colour"
-  },
-  {
-   "name": "Blow-dry & styling"
-  },
-  {
    "name": "Treatments"
+  },
+  {
+   "name": "Appointments"
   }
  ],
  "font": "Cormorant Garamond",
@@ -48,7 +42,7 @@
  "accent": "#3b2230",
  "paper": "#f8f1ee",
  "radius": "4px",
- "services_title": "Cuts, colour and styling",
+ "services_title": "Treatments",
  "cta_primary": "Call to book",
  "bar_cta": "Book",
  "hero": {

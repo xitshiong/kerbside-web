@@ -1,0 +1,43 @@
+{
+ "name": "The Bike Shop",
+ "name_html": "The Bike Shop",
+ "tagline": "Bike shop in Derwent Park",
+ "noindex": true,
+ "headline": "Bike shop in Derwent Park",
+ "intro": "Find The Bike Shop in Derwent Park: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>The Bike Shop</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "info@thebikeshoptas.com.au",
+ "phone": "(03) 6273 6222",
+ "address": "30 Derwent Park Road, Derwent Park",
+ "map_query": "The Bike Shop 30 Derwent Park Road, Derwent Park TAS",
+ "hours": [
+  [
+   "Mon to Fri",
+   "9:30am to 5pm"
+  ],
+  [
+   "Sat",
+   "10am to 2pm"
+  ]
+ ],
+ "area_title": "Visit us",
+ "contact_title": "Get in touch",
+ "links": [
+  [
+   "Facebook",
+   "https://facebook.com/pages/the-bike-shop-Moonah/217094872526"
+  ]
+ ],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "tape",
+ "services": [],
+ "services_title": "",
+ "font": "Archivo",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#1f4fd1",
+ "accent": "#0f1f3d",
+ "paper": "#f4f5f7",
+ "radius": "6px",
+ "cta_secondary": "Send an enquiry"
+}

@@ -133,7 +133,7 @@ form .btn{justify-self:start}
    <div class="dk-head"><span>{{ area_title }}</span><span>Hours</span></div>
    {% if hours %}<table class="hours"><caption class="sr">Opening hours</caption>{% for h in hours %}<tr><td>{{ h[0] }}</td><td>{{ h[1] }}</td></tr>{% endfor %}</table>{% endif %}
    {% if area %}<p>{{ area }}</p>{% endif %}
-   {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }}<br><a class="circled" href="{{ m.maps(map_query) }}">Get directions</a></span></p>{% endif %}
+   {% if address %}<p class="addr">{{ m.pin_icon() }}<span>{{ address }}<br><a class="circled" href="{{ m.maps(map_query) }}">Get directions</a></span></p>{% elif map_query %}<p class="addr">{{ m.pin_icon() }}<span><a class="circled" href="{{ m.maps(map_query) }}">Get directions</a></span></p>{% endif %}
   </div>
   {% if map_query %}<div class="dk mapdk"><iframe class="map" loading="lazy" src="https://maps.google.com/maps?q={{ map_query|urlencode }}&output=embed" title="Map of {{ map_query }}"></iframe></div>{% endif %}
  </div></div>

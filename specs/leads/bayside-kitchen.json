@@ -1,0 +1,53 @@
+{
+ "name": "Bayside Kitchen",
+ "name_html": "Bayside Kitchen",
+ "tagline": "Restaurant in Perth",
+ "noindex": true,
+ "headline": "Restaurant in Perth",
+ "intro": "Find Bayside Kitchen in Perth: opening hours, directions and a quick way to get in touch.",
+ "banner": "Free website preview made for <b>Bayside Kitchen</b> by <a href=\"../../\">Kerbside Web</a>. Sample text and stock photos, not live yet.",
+ "email": "baysidekitchen@matbay.com.au",
+ "phone": "(08) 9366 9229",
+ "address": "",
+ "map_query": "Bayside Kitchen Perth WA",
+ "hours": [
+  [
+   "Mon to Fri",
+   "7:30am to 5pm"
+  ],
+  [
+   "Sat,Sun",
+   "7:30am to 6pm"
+  ]
+ ],
+ "area_title": "Find us",
+ "contact_title": "Get in touch",
+ "links": [],
+ "credit": "https://kerbsidedesign.com/",
+ "world": "docket",
+ "services": [
+  {
+   "name": "Dine in"
+  },
+  {
+   "name": "Takeaway"
+  },
+  {
+   "name": "Bookings"
+  },
+  {
+   "name": "Groups & functions"
+  }
+ ],
+ "font": "Fraunces",
+ "font_weights": "700;800",
+ "heading_weight": 800,
+ "color": "#8c2f1b",
+ "accent": "#24140f",
+ "paper": "#f7f1ea",
+ "radius": "6px",
+ "cta_secondary": "Request a booking",
+ "layout": "venue",
+ "services_title": "Eat with us",
+ "cta_primary": "Call to book"
+}
